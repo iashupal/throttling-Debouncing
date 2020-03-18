@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Debouncing</title>
+    </head>
+    <style>
+        div {
+            border: 1px solid black;
+            width: 300px;
+            height: 200px;
+            overflow: scroll;
+        }
+
+    </style>
+    <body>
+        <label>Search</label>
+        <input type="text" id="search-box" />
+        <p>No. of times events fired</p>
+        <p id="show-api-call-count"></p>
+        <p>No. of time debounce execute the method</p>
+        <p id="debounce-count"></p>
+    </body>
+    <script src="/js/debouncing.js"></script>
+
+</html>

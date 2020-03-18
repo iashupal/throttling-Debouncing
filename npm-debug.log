@@ -1,0 +1,2934 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '@syncfusion/ej2-react-grids',
+1 verbose cli   '--save',
+1 verbose cli   '--no-progress' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData @syncfusion/ej2-react-grids
+8 silly fetchNamedPackageData @syncfusion/ej2-react-grids
+9 silly mapToRegistry name @syncfusion/ej2-react-grids
+10 silly mapToRegistry scope (from package name) @syncfusion
+11 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-react-grids
+15 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-react-grids
+16 verbose request no auth needed
+17 info attempt registry request try #1 at 5:46:09 PM
+18 verbose request id 5bb23eb3935ae7b7
+19 http request GET https://registry.npmjs.org/@syncfusion%2fej2-react-grids
+20 http 200 https://registry.npmjs.org/@syncfusion%2fej2-react-grids
+21 verbose headers { date: 'Wed, 11 Mar 2020 12:16:13 GMT',
+21 verbose headers   'content-type': 'application/json',
+21 verbose headers   'transfer-encoding': 'chunked',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie': [ '__cfduid=d3cc730c796bfd8be10f5e40312927c1b1583928970; expires=Fri, 10-Apr-20 12:16:10 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+21 verbose headers   'cf-ray': '572534832d81d547-DEL',
+21 verbose headers   age: '2',
+21 verbose headers   'cache-control': 'public, max-age=300',
+21 verbose headers   etag: 'W/"cb072ca4ee919fea7d98e3c84ee10599"',
+21 verbose headers   'last-modified': 'Tue, 10 Mar 2020 10:51:39 GMT',
+21 verbose headers   vary: 'accept-encoding, accept',
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   server: 'cloudflare',
+21 verbose headers   'content-encoding': 'gzip' }
+22 silly get cb [ 200,
+22 silly get   { date: 'Wed, 11 Mar 2020 12:16:13 GMT',
+22 silly get     'content-type': 'application/json',
+22 silly get     'transfer-encoding': 'chunked',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie': [ '__cfduid=d3cc730c796bfd8be10f5e40312927c1b1583928970; expires=Fri, 10-Apr-20 12:16:10 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+22 silly get     'cf-ray': '572534832d81d547-DEL',
+22 silly get     age: '2',
+22 silly get     'cache-control': 'public, max-age=300',
+22 silly get     etag: 'W/"cb072ca4ee919fea7d98e3c84ee10599"',
+22 silly get     'last-modified': 'Tue, 10 Mar 2020 10:51:39 GMT',
+22 silly get     vary: 'accept-encoding, accept',
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     server: 'cloudflare',
+22 silly get     'content-encoding': 'gzip' } ]
+23 verbose get saving @syncfusion/ej2-react-grids to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-react-grids/.cache.json
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule @syncfusion/ej2-react-grids@17.4.55 checking installable status
+37 silly cache add args [ '@syncfusion/ej2-react-grids', null ]
+38 verbose cache add spec @syncfusion/ej2-react-grids
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: '@syncfusion/ej2-react-grids',
+39 silly cache add   scope: '@syncfusion',
+39 silly cache add   name: '@syncfusion/ej2-react-grids',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed @syncfusion/ej2-react-grids@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for @syncfusion/ej2-react-grids
+42 info addNameTag [ '@syncfusion/ej2-react-grids', 'latest' ]
+43 silly mapToRegistry name @syncfusion/ej2-react-grids
+44 silly mapToRegistry scope (from package name) @syncfusion
+45 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-react-grids
+49 verbose addNameTag registry:https://registry.npmjs.org/@syncfusion%2fej2-react-grids not in flight; fetching
+50 verbose get https://registry.npmjs.org/@syncfusion%2fej2-react-grids not expired, no request
+51 silly addNameTag next cb for @syncfusion/ej2-react-grids with tag latest
+52 silly addNamed @syncfusion/ej2-react-grids@17.4.55
+53 verbose addNamed "17.4.55" is a plain semver version for @syncfusion/ej2-react-grids
+54 silly mapToRegistry name @syncfusion/ej2-react-grids
+55 silly mapToRegistry scope (from package name) @syncfusion
+56 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-react-grids
+60 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-react-grids/-/ej2-react-grids-17.4.55.tgz not in flight; adding
+61 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-react-grids/-/ej2-react-grids-17.4.55.tgz',
+61 verbose addRemoteTarball   '62772c69be34f51c832d37f23263bbcafe8d78b4' ]
+62 info retry fetch attempt 1 at 5:46:13 PM
+63 info attempt registry request try #1 at 5:46:13 PM
+64 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-react-grids/-/ej2-react-grids-17.4.55.tgz
+65 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-react-grids/-/ej2-react-grids-17.4.55.tgz
+66 silly fetchAndShaCheck shasum 62772c69be34f51c832d37f23263bbcafe8d78b4
+67 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-react-grids/-/ej2-react-grids-17.4.55.tgz not in flight; adding
+68 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-react-grids@17.4.55
+69 silly cache afterAdd @syncfusion/ej2-react-grids@17.4.55
+70 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-react-grids/17.4.55/package/package.json not in flight; writing
+71 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-react-grids/17.4.55/package/package.json written
+72 silly fetchNamedPackageData @syncfusion/ej2-base
+73 silly mapToRegistry name @syncfusion/ej2-base
+74 silly mapToRegistry scope (from package name) @syncfusion
+75 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-base
+79 silly fetchNamedPackageData @syncfusion/ej2-grids
+80 silly mapToRegistry name @syncfusion/ej2-grids
+81 silly mapToRegistry scope (from package name) @syncfusion
+82 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-grids
+86 silly fetchNamedPackageData @syncfusion/ej2-react-base
+87 silly mapToRegistry name @syncfusion/ej2-react-base
+88 silly mapToRegistry scope (from package name) @syncfusion
+89 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npmjs.org/
+92 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-react-base
+93 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-base
+94 verbose request no auth needed
+95 info attempt registry request try #1 at 5:46:14 PM
+96 http request GET https://registry.npmjs.org/@syncfusion%2fej2-base
+97 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-grids
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 5:46:14 PM
+100 http request GET https://registry.npmjs.org/@syncfusion%2fej2-grids
+101 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-react-base
+102 verbose request no auth needed
+103 info attempt registry request try #1 at 5:46:14 PM
+104 http request GET https://registry.npmjs.org/@syncfusion%2fej2-react-base
+105 http 200 https://registry.npmjs.org/@syncfusion%2fej2-react-base
+106 verbose headers { date: 'Wed, 11 Mar 2020 12:16:17 GMT',
+106 verbose headers   'content-type': 'application/json',
+106 verbose headers   'transfer-encoding': 'chunked',
+106 verbose headers   connection: 'keep-alive',
+106 verbose headers   'set-cookie': [ '__cfduid=d25b72efb51c210dacffd13c05cad95d21583928975; expires=Fri, 10-Apr-20 12:16:15 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+106 verbose headers   'cf-ray': '5725349f4cd1d54f-DEL',
+106 verbose headers   age: '1',
+106 verbose headers   'cache-control': 'public, max-age=300',
+106 verbose headers   etag: 'W/"592c2765be1adcb4db0d520383f2cf9f"',
+106 verbose headers   'last-modified': 'Tue, 25 Feb 2020 14:16:44 GMT',
+106 verbose headers   vary: 'accept-encoding, accept',
+106 verbose headers   'cf-cache-status': 'HIT',
+106 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+106 verbose headers   server: 'cloudflare',
+106 verbose headers   'content-encoding': 'gzip' }
+107 silly get cb [ 200,
+107 silly get   { date: 'Wed, 11 Mar 2020 12:16:17 GMT',
+107 silly get     'content-type': 'application/json',
+107 silly get     'transfer-encoding': 'chunked',
+107 silly get     connection: 'keep-alive',
+107 silly get     'set-cookie': [ '__cfduid=d25b72efb51c210dacffd13c05cad95d21583928975; expires=Fri, 10-Apr-20 12:16:15 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+107 silly get     'cf-ray': '5725349f4cd1d54f-DEL',
+107 silly get     age: '1',
+107 silly get     'cache-control': 'public, max-age=300',
+107 silly get     etag: 'W/"592c2765be1adcb4db0d520383f2cf9f"',
+107 silly get     'last-modified': 'Tue, 25 Feb 2020 14:16:44 GMT',
+107 silly get     vary: 'accept-encoding, accept',
+107 silly get     'cf-cache-status': 'HIT',
+107 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+107 silly get     server: 'cloudflare',
+107 silly get     'content-encoding': 'gzip' } ]
+108 verbose get saving @syncfusion/ej2-react-base to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-react-base/.cache.json
+109 silly resolveWithNewModule @syncfusion/ej2-react-base@17.4.51 checking installable status
+110 silly cache add args [ '@syncfusion/ej2-react-base@~17.4.51', null ]
+111 verbose cache add spec @syncfusion/ej2-react-base@~17.4.51
+112 silly cache add parsed spec Result {
+112 silly cache add   raw: '@syncfusion/ej2-react-base@~17.4.51',
+112 silly cache add   scope: '@syncfusion',
+112 silly cache add   name: '@syncfusion/ej2-react-base',
+112 silly cache add   rawSpec: '~17.4.51',
+112 silly cache add   spec: '>=17.4.51 <17.5.0',
+112 silly cache add   type: 'range' }
+113 silly addNamed @syncfusion/ej2-react-base@>=17.4.51 <17.5.0
+114 verbose addNamed ">=17.4.51 <17.5.0" is a valid semver range for @syncfusion/ej2-react-base
+115 silly addNameRange { name: '@syncfusion/ej2-react-base',
+115 silly addNameRange   range: '>=17.4.51 <17.5.0',
+115 silly addNameRange   hasData: false }
+116 silly mapToRegistry name @syncfusion/ej2-react-base
+117 silly mapToRegistry scope (from package name) @syncfusion
+118 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry https://registry.npmjs.org/
+121 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-react-base
+122 verbose addNameRange registry:https://registry.npmjs.org/@syncfusion%2fej2-react-base not in flight; fetching
+123 verbose get https://registry.npmjs.org/@syncfusion%2fej2-react-base not expired, no request
+124 silly addNameRange number 2 { name: '@syncfusion/ej2-react-base',
+124 silly addNameRange   range: '>=17.4.51 <17.5.0',
+124 silly addNameRange   hasData: true }
+125 silly addNameRange versions [ '@syncfusion/ej2-react-base',
+125 silly addNameRange   [ '1.0.11',
+125 silly addNameRange     '1.0.14',
+125 silly addNameRange     '1.0.16',
+125 silly addNameRange     '1.0.22',
+125 silly addNameRange     '15.4.17',
+125 silly addNameRange     '15.4.18',
+125 silly addNameRange     '15.4.20',
+125 silly addNameRange     '15.4.23',
+125 silly addNameRange     '16.1.24',
+125 silly addNameRange     '16.1.26',
+125 silly addNameRange     '16.1.28',
+125 silly addNameRange     '16.1.32',
+125 silly addNameRange     '16.1.33',
+125 silly addNameRange     '16.1.37',
+125 silly addNameRange     '16.1.48',
+125 silly addNameRange     '16.2.41',
+125 silly addNameRange     '16.2.45',
+125 silly addNameRange     '16.2.46',
+125 silly addNameRange     '16.2.49',
+125 silly addNameRange     '16.2.50',
+125 silly addNameRange     '16.3.17',
+125 silly addNameRange     '16.3.21',
+125 silly addNameRange     '16.3.24',
+125 silly addNameRange     '16.3.29',
+125 silly addNameRange     '16.3.30',
+125 silly addNameRange     '16.3.31',
+125 silly addNameRange     '16.3.32',
+125 silly addNameRange     '16.3.33',
+125 silly addNameRange     '16.3.34',
+125 silly addNameRange     '16.4.40-beta',
+125 silly addNameRange     '16.4.42',
+125 silly addNameRange     '16.4.45',
+125 silly addNameRange     '16.4.47',
+125 silly addNameRange     '17.1.1-beta',
+125 silly addNameRange     '16.4.52',
+125 silly addNameRange     '17.1.32-beta',
+125 silly addNameRange     '17.1.38',
+125 silly addNameRange     '17.1.42',
+125 silly addNameRange     '17.1.44',
+125 silly addNameRange     '17.1.47',
+125 silly addNameRange     '17.1.49',
+125 silly addNameRange     '17.1.50',
+125 silly addNameRange     '17.2.28-beta',
+125 silly addNameRange     '17.2.34',
+125 silly addNameRange     '17.2.40',
+125 silly addNameRange     '17.2.46',
+125 silly addNameRange     '17.2.47',
+125 silly addNameRange     '17.2.29-beta',
+125 silly addNameRange     '17.2.48-beta',
+125 silly addNameRange     '17.2.51',
+125 silly addNameRange     '17.3.9-beta',
+125 silly addNameRange     '17.3.14',
+125 silly addNameRange     '17.3.16',
+125 silly addNameRange     '17.3.19',
+125 silly addNameRange     '17.3.26',
+125 silly addNameRange     '17.3.27',
+125 silly addNameRange     '17.4.39',
+125 silly addNameRange     '17.4.41',
+125 silly addNameRange     '17.4.43',
+125 silly addNameRange     '17.4.46',
+125 silly addNameRange     '17.4.47',
+125 silly addNameRange     '17.4.49',
+125 silly addNameRange     '17.4.51' ] ]
+126 silly addNamed @syncfusion/ej2-react-base@17.4.51
+127 verbose addNamed "17.4.51" is a plain semver version for @syncfusion/ej2-react-base
+128 silly mapToRegistry name @syncfusion/ej2-react-base
+129 silly mapToRegistry scope (from package name) @syncfusion
+130 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+131 silly mapToRegistry using default registry
+132 silly mapToRegistry registry https://registry.npmjs.org/
+133 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-react-base
+134 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-react-base/-/ej2-react-base-17.4.51.tgz not in flight; adding
+135 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-react-base/-/ej2-react-base-17.4.51.tgz',
+135 verbose addRemoteTarball   '3d517ff8db2d331826441f5dfdaf7bda2de4c880' ]
+136 info retry fetch attempt 1 at 5:46:17 PM
+137 info attempt registry request try #1 at 5:46:17 PM
+138 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-react-base/-/ej2-react-base-17.4.51.tgz
+139 http 200 https://registry.npmjs.org/@syncfusion%2fej2-base
+140 verbose headers { date: 'Wed, 11 Mar 2020 12:16:17 GMT',
+140 verbose headers   'content-type': 'application/json',
+140 verbose headers   'transfer-encoding': 'chunked',
+140 verbose headers   connection: 'keep-alive',
+140 verbose headers   'set-cookie': [ '__cfduid=d63b8c26e437f1aad098490ffe8d5ecd71583928975; expires=Fri, 10-Apr-20 12:16:15 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+140 verbose headers   'cf-ray': '5725349efd772efd-DEL',
+140 verbose headers   age: '1',
+140 verbose headers   'cache-control': 'public, max-age=300',
+140 verbose headers   etag: 'W/"d4baee208b62fcb667a87b2e8c8eba6e"',
+140 verbose headers   'last-modified': 'Tue, 25 Feb 2020 14:16:36 GMT',
+140 verbose headers   vary: 'accept-encoding, accept',
+140 verbose headers   'cf-cache-status': 'HIT',
+140 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+140 verbose headers   server: 'cloudflare',
+140 verbose headers   'content-encoding': 'gzip' }
+141 silly get cb [ 200,
+141 silly get   { date: 'Wed, 11 Mar 2020 12:16:17 GMT',
+141 silly get     'content-type': 'application/json',
+141 silly get     'transfer-encoding': 'chunked',
+141 silly get     connection: 'keep-alive',
+141 silly get     'set-cookie': [ '__cfduid=d63b8c26e437f1aad098490ffe8d5ecd71583928975; expires=Fri, 10-Apr-20 12:16:15 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+141 silly get     'cf-ray': '5725349efd772efd-DEL',
+141 silly get     age: '1',
+141 silly get     'cache-control': 'public, max-age=300',
+141 silly get     etag: 'W/"d4baee208b62fcb667a87b2e8c8eba6e"',
+141 silly get     'last-modified': 'Tue, 25 Feb 2020 14:16:36 GMT',
+141 silly get     vary: 'accept-encoding, accept',
+141 silly get     'cf-cache-status': 'HIT',
+141 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+141 silly get     server: 'cloudflare',
+141 silly get     'content-encoding': 'gzip' } ]
+142 verbose get saving @syncfusion/ej2-base to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-base/.cache.json
+143 silly resolveWithNewModule @syncfusion/ej2-base@17.4.51 checking installable status
+144 silly cache add args [ '@syncfusion/ej2-base@~17.4.51', null ]
+145 verbose cache add spec @syncfusion/ej2-base@~17.4.51
+146 silly cache add parsed spec Result {
+146 silly cache add   raw: '@syncfusion/ej2-base@~17.4.51',
+146 silly cache add   scope: '@syncfusion',
+146 silly cache add   name: '@syncfusion/ej2-base',
+146 silly cache add   rawSpec: '~17.4.51',
+146 silly cache add   spec: '>=17.4.51 <17.5.0',
+146 silly cache add   type: 'range' }
+147 silly addNamed @syncfusion/ej2-base@>=17.4.51 <17.5.0
+148 verbose addNamed ">=17.4.51 <17.5.0" is a valid semver range for @syncfusion/ej2-base
+149 silly addNameRange { name: '@syncfusion/ej2-base',
+149 silly addNameRange   range: '>=17.4.51 <17.5.0',
+149 silly addNameRange   hasData: false }
+150 silly mapToRegistry name @syncfusion/ej2-base
+151 silly mapToRegistry scope (from package name) @syncfusion
+152 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry https://registry.npmjs.org/
+155 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-base
+156 verbose addNameRange registry:https://registry.npmjs.org/@syncfusion%2fej2-base not in flight; fetching
+157 verbose get https://registry.npmjs.org/@syncfusion%2fej2-base not expired, no request
+158 silly addNameRange number 2 { name: '@syncfusion/ej2-base',
+158 silly addNameRange   range: '>=17.4.51 <17.5.0',
+158 silly addNameRange   hasData: true }
+159 silly addNameRange versions [ '@syncfusion/ej2-base',
+159 silly addNameRange   [ '1.0.8',
+159 silly addNameRange     '1.0.10',
+159 silly addNameRange     '1.0.11',
+159 silly addNameRange     '1.0.12',
+159 silly addNameRange     '1.0.14',
+159 silly addNameRange     '1.0.15',
+159 silly addNameRange     '1.0.16',
+159 silly addNameRange     '1.0.18',
+159 silly addNameRange     '1.0.19',
+159 silly addNameRange     '1.0.21',
+159 silly addNameRange     '1.0.22',
+159 silly addNameRange     '1.0.25',
+159 silly addNameRange     '15.4.17',
+159 silly addNameRange     '15.4.19',
+159 silly addNameRange     '15.4.20',
+159 silly addNameRange     '15.4.21',
+159 silly addNameRange     '15.4.23',
+159 silly addNameRange     '16.1.24',
+159 silly addNameRange     '16.1.26',
+159 silly addNameRange     '16.1.27',
+159 silly addNameRange     '16.1.28',
+159 silly addNameRange     '16.1.29',
+159 silly addNameRange     '16.1.30',
+159 silly addNameRange     '16.1.32',
+159 silly addNameRange     '16.1.33',
+159 silly addNameRange     '16.1.35',
+159 silly addNameRange     '16.1.37',
+159 silly addNameRange     '16.1.38',
+159 silly addNameRange     '16.2.41',
+159 silly addNameRange     '16.2.45',
+159 silly addNameRange     '16.2.46',
+159 silly addNameRange     '16.2.47',
+159 silly addNameRange     '16.2.49',
+159 silly addNameRange     '16.2.50',
+159 silly addNameRange     '16.3.17',
+159 silly addNameRange     '16.3.21',
+159 silly addNameRange     '16.3.24',
+159 silly addNameRange     '16.3.29',
+159 silly addNameRange     '16.3.30',
+159 silly addNameRange     '16.3.32',
+159 silly addNameRange     '16.3.33',
+159 silly addNameRange     '16.3.34',
+159 silly addNameRange     '16.4.40-beta',
+159 silly addNameRange     '16.4.42',
+159 silly addNameRange     '16.4.47',
+159 silly addNameRange     '17.1.1-beta',
+159 silly addNameRange     '16.4.52',
+159 silly addNameRange     '17.1.32-beta',
+159 silly addNameRange     '17.1.38',
+159 silly addNameRange     '17.1.41',
+159 silly addNameRange     '17.1.42',
+159 silly addNameRange     '17.1.43',
+159 silly addNameRange     '17.1.47',
+159 silly addNameRange     '17.1.48',
+159 silly addNameRange     '17.1.49',
+159 silly addNameRange     '17.2.28-beta',
+159 silly addNameRange     '17.2.34',
+159 silly addNameRange     '17.2.35',
+159 silly addNameRange     '17.2.39',
+159 silly addNameRange     '17.2.40',
+159 silly addNameRange     '17.2.46',
+159 silly addNameRange     '17.2.47',
+159 silly addNameRange     '17.2.29-beta',
+159 silly addNameRange     '17.2.48-beta',
+159 silly addNameRange     '17.2.49',
+159 silly addNameRange     '17.3.9-beta',
+159 silly addNameRange     '17.3.14',
+159 silly addNameRange     '17.3.16',
+159 silly addNameRange     '17.3.19',
+159 silly addNameRange     '17.3.26',
+159 silly addNameRange     '17.3.27',
+159 silly addNameRange     '17.4.39',
+159 silly addNameRange     '17.4.41',
+159 silly addNameRange     '17.4.43',
+159 silly addNameRange     '17.4.46',
+159 silly addNameRange     '17.4.47',
+159 silly addNameRange     '17.4.51' ] ]
+160 silly addNamed @syncfusion/ej2-base@17.4.51
+161 verbose addNamed "17.4.51" is a plain semver version for @syncfusion/ej2-base
+162 silly mapToRegistry name @syncfusion/ej2-base
+163 silly mapToRegistry scope (from package name) @syncfusion
+164 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+165 silly mapToRegistry using default registry
+166 silly mapToRegistry registry https://registry.npmjs.org/
+167 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-base
+168 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-base/-/ej2-base-17.4.51.tgz not in flight; adding
+169 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-base/-/ej2-base-17.4.51.tgz',
+169 verbose addRemoteTarball   'ae8554b61dd8d7c1e3827ea76eb5f03bc5007823' ]
+170 info retry fetch attempt 1 at 5:46:17 PM
+171 info attempt registry request try #1 at 5:46:17 PM
+172 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-base/-/ej2-base-17.4.51.tgz
+173 http 200 https://registry.npmjs.org/@syncfusion%2fej2-grids
+174 verbose headers { date: 'Wed, 11 Mar 2020 12:16:17 GMT',
+174 verbose headers   'content-type': 'application/json',
+174 verbose headers   'transfer-encoding': 'chunked',
+174 verbose headers   connection: 'keep-alive',
+174 verbose headers   'set-cookie': [ '__cfduid=d2dacf8ed299737bad37f3c4cf1a1d4151583928975; expires=Fri, 10-Apr-20 12:16:15 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+174 verbose headers   'cf-ray': '5725349f4f0bd57b-DEL',
+174 verbose headers   age: '1',
+174 verbose headers   'cache-control': 'public, max-age=300',
+174 verbose headers   etag: 'W/"e7811285cec1982b1863d7facea02c3a"',
+174 verbose headers   'last-modified': 'Tue, 10 Mar 2020 10:51:25 GMT',
+174 verbose headers   vary: 'accept-encoding, accept',
+174 verbose headers   'cf-cache-status': 'HIT',
+174 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+174 verbose headers   server: 'cloudflare',
+174 verbose headers   'content-encoding': 'gzip' }
+175 silly get cb [ 200,
+175 silly get   { date: 'Wed, 11 Mar 2020 12:16:17 GMT',
+175 silly get     'content-type': 'application/json',
+175 silly get     'transfer-encoding': 'chunked',
+175 silly get     connection: 'keep-alive',
+175 silly get     'set-cookie': [ '__cfduid=d2dacf8ed299737bad37f3c4cf1a1d4151583928975; expires=Fri, 10-Apr-20 12:16:15 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+175 silly get     'cf-ray': '5725349f4f0bd57b-DEL',
+175 silly get     age: '1',
+175 silly get     'cache-control': 'public, max-age=300',
+175 silly get     etag: 'W/"e7811285cec1982b1863d7facea02c3a"',
+175 silly get     'last-modified': 'Tue, 10 Mar 2020 10:51:25 GMT',
+175 silly get     vary: 'accept-encoding, accept',
+175 silly get     'cf-cache-status': 'HIT',
+175 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+175 silly get     server: 'cloudflare',
+175 silly get     'content-encoding': 'gzip' } ]
+176 verbose get saving @syncfusion/ej2-grids to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-grids/.cache.json
+177 silly resolveWithNewModule @syncfusion/ej2-grids@17.4.55 checking installable status
+178 silly cache add args [ '@syncfusion/ej2-grids@17.4.55', null ]
+179 verbose cache add spec @syncfusion/ej2-grids@17.4.55
+180 silly cache add parsed spec Result {
+180 silly cache add   raw: '@syncfusion/ej2-grids@17.4.55',
+180 silly cache add   scope: '@syncfusion',
+180 silly cache add   name: '@syncfusion/ej2-grids',
+180 silly cache add   rawSpec: '17.4.55',
+180 silly cache add   spec: '17.4.55',
+180 silly cache add   type: 'version' }
+181 silly addNamed @syncfusion/ej2-grids@17.4.55
+182 verbose addNamed "17.4.55" is a plain semver version for @syncfusion/ej2-grids
+183 silly mapToRegistry name @syncfusion/ej2-grids
+184 silly mapToRegistry scope (from package name) @syncfusion
+185 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+186 silly mapToRegistry using default registry
+187 silly mapToRegistry registry https://registry.npmjs.org/
+188 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-grids
+189 verbose addNameVersion registry:https://registry.npmjs.org/@syncfusion%2fej2-grids not in flight; fetching
+190 verbose get https://registry.npmjs.org/@syncfusion%2fej2-grids not expired, no request
+191 silly mapToRegistry name @syncfusion/ej2-grids
+192 silly mapToRegistry scope (from package name) @syncfusion
+193 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+194 silly mapToRegistry using default registry
+195 silly mapToRegistry registry https://registry.npmjs.org/
+196 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-grids
+197 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-grids/-/ej2-grids-17.4.55.tgz not in flight; adding
+198 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-grids/-/ej2-grids-17.4.55.tgz',
+198 verbose addRemoteTarball   'b27baa12f55623e904bb215df29dfa1cb42841b6' ]
+199 info retry fetch attempt 1 at 5:46:17 PM
+200 info attempt registry request try #1 at 5:46:17 PM
+201 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-grids/-/ej2-grids-17.4.55.tgz
+202 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-react-base/-/ej2-react-base-17.4.51.tgz
+203 silly fetchAndShaCheck shasum 3d517ff8db2d331826441f5dfdaf7bda2de4c880
+204 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-react-base/-/ej2-react-base-17.4.51.tgz not in flight; adding
+205 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-react-base@17.4.51
+206 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-base/-/ej2-base-17.4.51.tgz
+207 silly cache afterAdd @syncfusion/ej2-react-base@17.4.51
+208 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-react-base/17.4.51/package/package.json not in flight; writing
+209 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-react-base/17.4.51/package/package.json written
+210 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-grids/-/ej2-grids-17.4.55.tgz
+211 silly fetchAndShaCheck shasum ae8554b61dd8d7c1e3827ea76eb5f03bc5007823
+212 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-base/-/ej2-base-17.4.51.tgz not in flight; adding
+213 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-base@17.4.51
+214 silly cache afterAdd @syncfusion/ej2-base@17.4.51
+215 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-base/17.4.51/package/package.json not in flight; writing
+216 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-base/17.4.51/package/package.json written
+217 silly fetchAndShaCheck shasum b27baa12f55623e904bb215df29dfa1cb42841b6
+218 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-grids/-/ej2-grids-17.4.55.tgz not in flight; adding
+219 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-grids@17.4.55
+220 silly cache afterAdd @syncfusion/ej2-grids@17.4.55
+221 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-grids/17.4.55/package/package.json not in flight; writing
+222 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-grids/17.4.55/package/package.json written
+223 silly fetchNamedPackageData @syncfusion/ej2-icons
+224 silly mapToRegistry name @syncfusion/ej2-icons
+225 silly mapToRegistry scope (from package name) @syncfusion
+226 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+227 silly mapToRegistry using default registry
+228 silly mapToRegistry registry https://registry.npmjs.org/
+229 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-icons
+230 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-icons
+231 verbose request no auth needed
+232 info attempt registry request try #1 at 5:46:20 PM
+233 http request GET https://registry.npmjs.org/@syncfusion%2fej2-icons
+234 http 200 https://registry.npmjs.org/@syncfusion%2fej2-icons
+235 verbose headers { date: 'Wed, 11 Mar 2020 12:16:23 GMT',
+235 verbose headers   'content-type': 'application/json',
+235 verbose headers   'transfer-encoding': 'chunked',
+235 verbose headers   connection: 'keep-alive',
+235 verbose headers   'set-cookie': [ '__cfduid=d6c55975bf5ac6914c0892ea1108453561583928980; expires=Fri, 10-Apr-20 12:16:20 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+235 verbose headers   'cf-ray': '572534c22f61d543-DEL',
+235 verbose headers   age: '2',
+235 verbose headers   'cache-control': 'public, max-age=300',
+235 verbose headers   etag: 'W/"7ec6b63836fa1ce3f18f58a823a25cc8"',
+235 verbose headers   'last-modified': 'Tue, 25 Feb 2020 14:16:31 GMT',
+235 verbose headers   vary: 'accept-encoding, accept',
+235 verbose headers   'cf-cache-status': 'HIT',
+235 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+235 verbose headers   server: 'cloudflare',
+235 verbose headers   'content-encoding': 'gzip' }
+236 silly get cb [ 200,
+236 silly get   { date: 'Wed, 11 Mar 2020 12:16:23 GMT',
+236 silly get     'content-type': 'application/json',
+236 silly get     'transfer-encoding': 'chunked',
+236 silly get     connection: 'keep-alive',
+236 silly get     'set-cookie': [ '__cfduid=d6c55975bf5ac6914c0892ea1108453561583928980; expires=Fri, 10-Apr-20 12:16:20 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+236 silly get     'cf-ray': '572534c22f61d543-DEL',
+236 silly get     age: '2',
+236 silly get     'cache-control': 'public, max-age=300',
+236 silly get     etag: 'W/"7ec6b63836fa1ce3f18f58a823a25cc8"',
+236 silly get     'last-modified': 'Tue, 25 Feb 2020 14:16:31 GMT',
+236 silly get     vary: 'accept-encoding, accept',
+236 silly get     'cf-cache-status': 'HIT',
+236 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+236 silly get     server: 'cloudflare',
+236 silly get     'content-encoding': 'gzip' } ]
+237 verbose get saving @syncfusion/ej2-icons to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-icons/.cache.json
+238 silly resolveWithNewModule @syncfusion/ej2-icons@17.4.51 checking installable status
+239 silly cache add args [ '@syncfusion/ej2-icons@~17.4.51', null ]
+240 verbose cache add spec @syncfusion/ej2-icons@~17.4.51
+241 silly cache add parsed spec Result {
+241 silly cache add   raw: '@syncfusion/ej2-icons@~17.4.51',
+241 silly cache add   scope: '@syncfusion',
+241 silly cache add   name: '@syncfusion/ej2-icons',
+241 silly cache add   rawSpec: '~17.4.51',
+241 silly cache add   spec: '>=17.4.51 <17.5.0',
+241 silly cache add   type: 'range' }
+242 silly addNamed @syncfusion/ej2-icons@>=17.4.51 <17.5.0
+243 verbose addNamed ">=17.4.51 <17.5.0" is a valid semver range for @syncfusion/ej2-icons
+244 silly addNameRange { name: '@syncfusion/ej2-icons',
+244 silly addNameRange   range: '>=17.4.51 <17.5.0',
+244 silly addNameRange   hasData: false }
+245 silly mapToRegistry name @syncfusion/ej2-icons
+246 silly mapToRegistry scope (from package name) @syncfusion
+247 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+248 silly mapToRegistry using default registry
+249 silly mapToRegistry registry https://registry.npmjs.org/
+250 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-icons
+251 verbose addNameRange registry:https://registry.npmjs.org/@syncfusion%2fej2-icons not in flight; fetching
+252 verbose get https://registry.npmjs.org/@syncfusion%2fej2-icons not expired, no request
+253 silly addNameRange number 2 { name: '@syncfusion/ej2-icons',
+253 silly addNameRange   range: '>=17.4.51 <17.5.0',
+253 silly addNameRange   hasData: true }
+254 silly addNameRange versions [ '@syncfusion/ej2-icons',
+254 silly addNameRange   [ '17.1.32-beta',
+254 silly addNameRange     '17.1.38',
+254 silly addNameRange     '17.1.42',
+254 silly addNameRange     '17.1.47',
+254 silly addNameRange     '17.2.28-beta',
+254 silly addNameRange     '17.2.34',
+254 silly addNameRange     '17.2.46',
+254 silly addNameRange     '17.2.47',
+254 silly addNameRange     '17.2.29-beta',
+254 silly addNameRange     '17.2.48-beta',
+254 silly addNameRange     '17.3.9-beta',
+254 silly addNameRange     '17.3.14',
+254 silly addNameRange     '17.3.19',
+254 silly addNameRange     '17.3.26',
+254 silly addNameRange     '17.3.27',
+254 silly addNameRange     '17.4.39',
+254 silly addNameRange     '17.4.43',
+254 silly addNameRange     '17.4.46',
+254 silly addNameRange     '17.4.47',
+254 silly addNameRange     '17.4.51' ] ]
+255 silly addNamed @syncfusion/ej2-icons@17.4.51
+256 verbose addNamed "17.4.51" is a plain semver version for @syncfusion/ej2-icons
+257 silly mapToRegistry name @syncfusion/ej2-icons
+258 silly mapToRegistry scope (from package name) @syncfusion
+259 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+260 silly mapToRegistry using default registry
+261 silly mapToRegistry registry https://registry.npmjs.org/
+262 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-icons
+263 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-icons/-/ej2-icons-17.4.51.tgz not in flight; adding
+264 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-icons/-/ej2-icons-17.4.51.tgz',
+264 verbose addRemoteTarball   'ea935aaba1ad690e7646e5cc13517e158fb2fed9' ]
+265 info retry fetch attempt 1 at 5:46:22 PM
+266 info attempt registry request try #1 at 5:46:22 PM
+267 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-icons/-/ej2-icons-17.4.51.tgz
+268 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-icons/-/ej2-icons-17.4.51.tgz
+269 silly fetchAndShaCheck shasum ea935aaba1ad690e7646e5cc13517e158fb2fed9
+270 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-icons/-/ej2-icons-17.4.51.tgz not in flight; adding
+271 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-icons@17.4.51
+272 silly cache afterAdd @syncfusion/ej2-icons@17.4.51
+273 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-icons/17.4.51/package/package.json not in flight; writing
+274 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-icons/17.4.51/package/package.json written
+275 silly fetchNamedPackageData @syncfusion/ej2-buttons
+276 silly mapToRegistry name @syncfusion/ej2-buttons
+277 silly mapToRegistry scope (from package name) @syncfusion
+278 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+279 silly mapToRegistry using default registry
+280 silly mapToRegistry registry https://registry.npmjs.org/
+281 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-buttons
+282 silly fetchNamedPackageData @syncfusion/ej2-calendars
+283 silly mapToRegistry name @syncfusion/ej2-calendars
+284 silly mapToRegistry scope (from package name) @syncfusion
+285 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+286 silly mapToRegistry using default registry
+287 silly mapToRegistry registry https://registry.npmjs.org/
+288 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-calendars
+289 silly fetchNamedPackageData @syncfusion/ej2-compression
+290 silly mapToRegistry name @syncfusion/ej2-compression
+291 silly mapToRegistry scope (from package name) @syncfusion
+292 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+293 silly mapToRegistry using default registry
+294 silly mapToRegistry registry https://registry.npmjs.org/
+295 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-compression
+296 silly fetchNamedPackageData @syncfusion/ej2-data
+297 silly mapToRegistry name @syncfusion/ej2-data
+298 silly mapToRegistry scope (from package name) @syncfusion
+299 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+300 silly mapToRegistry using default registry
+301 silly mapToRegistry registry https://registry.npmjs.org/
+302 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-data
+303 silly fetchNamedPackageData @syncfusion/ej2-dropdowns
+304 silly mapToRegistry name @syncfusion/ej2-dropdowns
+305 silly mapToRegistry scope (from package name) @syncfusion
+306 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+307 silly mapToRegistry using default registry
+308 silly mapToRegistry registry https://registry.npmjs.org/
+309 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-dropdowns
+310 silly fetchNamedPackageData @syncfusion/ej2-excel-export
+311 silly mapToRegistry name @syncfusion/ej2-excel-export
+312 silly mapToRegistry scope (from package name) @syncfusion
+313 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+314 silly mapToRegistry using default registry
+315 silly mapToRegistry registry https://registry.npmjs.org/
+316 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-excel-export
+317 silly fetchNamedPackageData @syncfusion/ej2-file-utils
+318 silly mapToRegistry name @syncfusion/ej2-file-utils
+319 silly mapToRegistry scope (from package name) @syncfusion
+320 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+321 silly mapToRegistry using default registry
+322 silly mapToRegistry registry https://registry.npmjs.org/
+323 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-file-utils
+324 silly fetchNamedPackageData @syncfusion/ej2-inputs
+325 silly mapToRegistry name @syncfusion/ej2-inputs
+326 silly mapToRegistry scope (from package name) @syncfusion
+327 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+328 silly mapToRegistry using default registry
+329 silly mapToRegistry registry https://registry.npmjs.org/
+330 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-inputs
+331 silly fetchNamedPackageData @syncfusion/ej2-lists
+332 silly mapToRegistry name @syncfusion/ej2-lists
+333 silly mapToRegistry scope (from package name) @syncfusion
+334 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+335 silly mapToRegistry using default registry
+336 silly mapToRegistry registry https://registry.npmjs.org/
+337 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-lists
+338 silly fetchNamedPackageData @syncfusion/ej2-navigations
+339 silly mapToRegistry name @syncfusion/ej2-navigations
+340 silly mapToRegistry scope (from package name) @syncfusion
+341 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+342 silly mapToRegistry using default registry
+343 silly mapToRegistry registry https://registry.npmjs.org/
+344 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-navigations
+345 silly fetchNamedPackageData @syncfusion/ej2-pdf-export
+346 silly mapToRegistry name @syncfusion/ej2-pdf-export
+347 silly mapToRegistry scope (from package name) @syncfusion
+348 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+349 silly mapToRegistry using default registry
+350 silly mapToRegistry registry https://registry.npmjs.org/
+351 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-pdf-export
+352 silly fetchNamedPackageData @syncfusion/ej2-popups
+353 silly mapToRegistry name @syncfusion/ej2-popups
+354 silly mapToRegistry scope (from package name) @syncfusion
+355 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+356 silly mapToRegistry using default registry
+357 silly mapToRegistry registry https://registry.npmjs.org/
+358 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-popups
+359 silly fetchNamedPackageData @syncfusion/ej2-splitbuttons
+360 silly mapToRegistry name @syncfusion/ej2-splitbuttons
+361 silly mapToRegistry scope (from package name) @syncfusion
+362 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+363 silly mapToRegistry using default registry
+364 silly mapToRegistry registry https://registry.npmjs.org/
+365 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-splitbuttons
+366 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-buttons
+367 verbose request no auth needed
+368 info attempt registry request try #1 at 5:46:24 PM
+369 http request GET https://registry.npmjs.org/@syncfusion%2fej2-buttons
+370 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-dropdowns
+371 verbose request no auth needed
+372 info attempt registry request try #1 at 5:46:24 PM
+373 http request GET https://registry.npmjs.org/@syncfusion%2fej2-dropdowns
+374 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-calendars
+375 verbose request no auth needed
+376 info attempt registry request try #1 at 5:46:24 PM
+377 http request GET https://registry.npmjs.org/@syncfusion%2fej2-calendars
+378 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-excel-export
+379 verbose request no auth needed
+380 info attempt registry request try #1 at 5:46:24 PM
+381 http request GET https://registry.npmjs.org/@syncfusion%2fej2-excel-export
+382 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-inputs
+383 verbose request no auth needed
+384 info attempt registry request try #1 at 5:46:24 PM
+385 http request GET https://registry.npmjs.org/@syncfusion%2fej2-inputs
+386 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-lists
+387 verbose request no auth needed
+388 info attempt registry request try #1 at 5:46:24 PM
+389 http request GET https://registry.npmjs.org/@syncfusion%2fej2-lists
+390 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-compression
+391 verbose request no auth needed
+392 info attempt registry request try #1 at 5:46:24 PM
+393 http request GET https://registry.npmjs.org/@syncfusion%2fej2-compression
+394 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-pdf-export
+395 verbose request no auth needed
+396 info attempt registry request try #1 at 5:46:24 PM
+397 http request GET https://registry.npmjs.org/@syncfusion%2fej2-pdf-export
+398 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-popups
+399 verbose request no auth needed
+400 info attempt registry request try #1 at 5:46:24 PM
+401 http request GET https://registry.npmjs.org/@syncfusion%2fej2-popups
+402 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-splitbuttons
+403 verbose request no auth needed
+404 info attempt registry request try #1 at 5:46:24 PM
+405 http request GET https://registry.npmjs.org/@syncfusion%2fej2-splitbuttons
+406 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-data
+407 verbose request no auth needed
+408 info attempt registry request try #1 at 5:46:24 PM
+409 http request GET https://registry.npmjs.org/@syncfusion%2fej2-data
+410 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-file-utils
+411 verbose request no auth needed
+412 info attempt registry request try #1 at 5:46:24 PM
+413 http request GET https://registry.npmjs.org/@syncfusion%2fej2-file-utils
+414 verbose request uri https://registry.npmjs.org/@syncfusion%2fej2-navigations
+415 verbose request no auth needed
+416 info attempt registry request try #1 at 5:46:24 PM
+417 http request GET https://registry.npmjs.org/@syncfusion%2fej2-navigations
+418 http 200 https://registry.npmjs.org/@syncfusion%2fej2-calendars
+419 verbose headers { date: 'Wed, 11 Mar 2020 12:16:26 GMT',
+419 verbose headers   'content-type': 'application/json',
+419 verbose headers   'transfer-encoding': 'chunked',
+419 verbose headers   connection: 'keep-alive',
+419 verbose headers   'set-cookie': [ '__cfduid=de8eee9ea4997bb23bc27c3e9908bbce81583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+419 verbose headers   'cf-ray': '572534dc9f272f21-DEL',
+419 verbose headers   age: '1',
+419 verbose headers   'cache-control': 'public, max-age=300',
+419 verbose headers   etag: 'W/"82213f96f246b05036f4568035a01421"',
+419 verbose headers   'last-modified': 'Tue, 25 Feb 2020 14:20:10 GMT',
+419 verbose headers   vary: 'accept-encoding, accept',
+419 verbose headers   'cf-cache-status': 'HIT',
+419 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+419 verbose headers   server: 'cloudflare',
+419 verbose headers   'content-encoding': 'gzip' }
+420 silly get cb [ 200,
+420 silly get   { date: 'Wed, 11 Mar 2020 12:16:26 GMT',
+420 silly get     'content-type': 'application/json',
+420 silly get     'transfer-encoding': 'chunked',
+420 silly get     connection: 'keep-alive',
+420 silly get     'set-cookie': [ '__cfduid=de8eee9ea4997bb23bc27c3e9908bbce81583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+420 silly get     'cf-ray': '572534dc9f272f21-DEL',
+420 silly get     age: '1',
+420 silly get     'cache-control': 'public, max-age=300',
+420 silly get     etag: 'W/"82213f96f246b05036f4568035a01421"',
+420 silly get     'last-modified': 'Tue, 25 Feb 2020 14:20:10 GMT',
+420 silly get     vary: 'accept-encoding, accept',
+420 silly get     'cf-cache-status': 'HIT',
+420 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+420 silly get     server: 'cloudflare',
+420 silly get     'content-encoding': 'gzip' } ]
+421 verbose get saving @syncfusion/ej2-calendars to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-calendars/.cache.json
+422 silly resolveWithNewModule @syncfusion/ej2-calendars@17.4.51 checking installable status
+423 silly cache add args [ '@syncfusion/ej2-calendars@~17.4.51', null ]
+424 verbose cache add spec @syncfusion/ej2-calendars@~17.4.51
+425 silly cache add parsed spec Result {
+425 silly cache add   raw: '@syncfusion/ej2-calendars@~17.4.51',
+425 silly cache add   scope: '@syncfusion',
+425 silly cache add   name: '@syncfusion/ej2-calendars',
+425 silly cache add   rawSpec: '~17.4.51',
+425 silly cache add   spec: '>=17.4.51 <17.5.0',
+425 silly cache add   type: 'range' }
+426 silly addNamed @syncfusion/ej2-calendars@>=17.4.51 <17.5.0
+427 verbose addNamed ">=17.4.51 <17.5.0" is a valid semver range for @syncfusion/ej2-calendars
+428 silly addNameRange { name: '@syncfusion/ej2-calendars',
+428 silly addNameRange   range: '>=17.4.51 <17.5.0',
+428 silly addNameRange   hasData: false }
+429 silly mapToRegistry name @syncfusion/ej2-calendars
+430 silly mapToRegistry scope (from package name) @syncfusion
+431 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+432 silly mapToRegistry using default registry
+433 silly mapToRegistry registry https://registry.npmjs.org/
+434 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-calendars
+435 verbose addNameRange registry:https://registry.npmjs.org/@syncfusion%2fej2-calendars not in flight; fetching
+436 verbose get https://registry.npmjs.org/@syncfusion%2fej2-calendars not expired, no request
+437 silly addNameRange number 2 { name: '@syncfusion/ej2-calendars',
+437 silly addNameRange   range: '>=17.4.51 <17.5.0',
+437 silly addNameRange   hasData: true }
+438 silly addNameRange versions [ '@syncfusion/ej2-calendars',
+438 silly addNameRange   [ '1.0.4',
+438 silly addNameRange     '1.0.5',
+438 silly addNameRange     '1.0.6',
+438 silly addNameRange     '1.0.7',
+438 silly addNameRange     '1.0.8',
+438 silly addNameRange     '1.0.10',
+438 silly addNameRange     '1.0.11',
+438 silly addNameRange     '1.0.14',
+438 silly addNameRange     '1.0.16',
+438 silly addNameRange     '1.0.18',
+438 silly addNameRange     '1.0.19',
+438 silly addNameRange     '1.0.21',
+438 silly addNameRange     '1.0.22',
+438 silly addNameRange     '15.4.17',
+438 silly addNameRange     '15.4.20',
+438 silly addNameRange     '15.4.21',
+438 silly addNameRange     '15.4.23',
+438 silly addNameRange     '15.4.25',
+438 silly addNameRange     '15.4.26',
+438 silly addNameRange     '16.1.24',
+438 silly addNameRange     '16.1.26',
+438 silly addNameRange     '16.1.28',
+438 silly addNameRange     '16.1.29',
+438 silly addNameRange     '16.1.32',
+438 silly addNameRange     '16.1.33',
+438 silly addNameRange     '16.1.34',
+438 silly addNameRange     '16.1.35',
+438 silly addNameRange     '16.1.37',
+438 silly addNameRange     '16.1.38',
+438 silly addNameRange     '16.1.42',
+438 silly addNameRange     '16.1.45',
+438 silly addNameRange     '16.1.48',
+438 silly addNameRange     '16.1.49',
+438 silly addNameRange     '16.2.41',
+438 silly addNameRange     '16.2.43',
+438 silly addNameRange     '16.2.44',
+438 silly addNameRange     '16.2.45',
+438 silly addNameRange     '16.2.46',
+438 silly addNameRange     '16.2.47',
+438 silly addNameRange     '16.2.49',
+438 silly addNameRange     '16.2.50',
+438 silly addNameRange     '16.2.51',
+438 silly addNameRange     '16.2.52',
+438 silly addNameRange     '16.3.17',
+438 silly addNameRange     '16.2.53',
+438 silly addNameRange     '16.3.21',
+438 silly addNameRange     '16.3.24',
+438 silly addNameRange     '16.3.25',
+438 silly addNameRange     '16.3.27',
+438 silly addNameRange     '16.3.29',
+438 silly addNameRange     '16.3.30',
+438 silly addNameRange     '16.3.31',
+438 silly addNameRange     '16.3.33',
+438 silly addNameRange     '16.3.34',
+438 silly addNameRange     '16.4.40-beta',
+438 silly addNameRange     '16.4.42',
+438 silly addNameRange     '16.4.44',
+438 silly addNameRange     '16.4.45',
+438 silly addNameRange     '16.4.46',
+438 silly addNameRange     '16.4.47',
+438 silly addNameRange     '16.4.48',
+438 silly addNameRange     '17.1.1-beta',
+438 silly addNameRange     '16.4.52',
+438 silly addNameRange     '16.4.53',
+438 silly addNameRange     '16.4.54',
+438 silly addNameRange     '16.4.55',
+438 silly addNameRange     '17.1.32-beta',
+438 silly addNameRange     '17.1.38',
+438 silly addNameRange     '17.1.41',
+438 silly addNameRange     '17.1.42',
+438 silly addNameRange     '17.1.43',
+438 silly addNameRange     '17.1.47',
+438 silly addNameRange     '17.1.48',
+438 silly addNameRange     '17.1.49',
+438 silly addNameRange     '17.1.51',
+438 silly addNameRange     '17.2.28-beta',
+438 silly addNameRange     '17.2.34',
+438 silly addNameRange     '17.2.35',
+438 silly addNameRange     '17.2.36',
+438 silly addNameRange     '17.2.41',
+438 silly addNameRange     '17.2.46',
+438 silly addNameRange     '17.2.47',
+438 silly addNameRange     '17.2.29-beta',
+438 silly addNameRange     '17.2.48-beta',
+438 silly addNameRange     '17.2.49',
+438 silly addNameRange     '17.3.9-beta',
+438 silly addNameRange     '17.3.14',
+438 silly addNameRange     '17.3.17',
+438 silly addNameRange     '17.3.19',
+438 silly addNameRange     '17.3.26',
+438 silly addNameRange     '17.3.27',
+438 silly addNameRange     '17.3.28',
+438 silly addNameRange     '17.4.39',
+438 silly addNameRange     '17.4.40',
+438 silly addNameRange     '17.4.41',
+438 silly addNameRange     '17.4.43',
+438 silly addNameRange     '17.4.44',
+438 silly addNameRange     '17.4.46',
+438 silly addNameRange     '17.4.47',
+438 silly addNameRange     '17.4.49',
+438 silly addNameRange     '17.4.50',
+438 silly addNameRange     '17.4.51' ] ]
+439 silly addNamed @syncfusion/ej2-calendars@17.4.51
+440 verbose addNamed "17.4.51" is a plain semver version for @syncfusion/ej2-calendars
+441 silly mapToRegistry name @syncfusion/ej2-calendars
+442 silly mapToRegistry scope (from package name) @syncfusion
+443 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+444 silly mapToRegistry using default registry
+445 silly mapToRegistry registry https://registry.npmjs.org/
+446 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-calendars
+447 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-calendars/-/ej2-calendars-17.4.51.tgz not in flight; adding
+448 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-calendars/-/ej2-calendars-17.4.51.tgz',
+448 verbose addRemoteTarball   '1235a7f3aee7e70d5bf0e9962e02e7af809aeea1' ]
+449 info retry fetch attempt 1 at 5:46:26 PM
+450 info attempt registry request try #1 at 5:46:26 PM
+451 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-calendars/-/ej2-calendars-17.4.51.tgz
+452 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-calendars/-/ej2-calendars-17.4.51.tgz
+453 silly fetchAndShaCheck shasum 1235a7f3aee7e70d5bf0e9962e02e7af809aeea1
+454 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-calendars/-/ej2-calendars-17.4.51.tgz not in flight; adding
+455 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-calendars@17.4.51
+456 silly cache afterAdd @syncfusion/ej2-calendars@17.4.51
+457 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-calendars/17.4.51/package/package.json not in flight; writing
+458 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-calendars/17.4.51/package/package.json written
+459 http 200 https://registry.npmjs.org/@syncfusion%2fej2-dropdowns
+460 verbose headers { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+460 verbose headers   'content-type': 'application/json',
+460 verbose headers   'transfer-encoding': 'chunked',
+460 verbose headers   connection: 'keep-alive',
+460 verbose headers   'set-cookie': [ '__cfduid=d1df2a49974337cdc4c97f2d9b3c127911583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+460 verbose headers   'cf-ray': '572534dc8c71d57b-DEL',
+460 verbose headers   age: '1',
+460 verbose headers   'cache-control': 'public, max-age=300',
+460 verbose headers   etag: 'W/"20f6a38ec0c6e43c55e4a879f99a8481"',
+460 verbose headers   'last-modified': 'Tue, 25 Feb 2020 14:21:47 GMT',
+460 verbose headers   vary: 'accept-encoding, accept',
+460 verbose headers   'cf-cache-status': 'HIT',
+460 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+460 verbose headers   server: 'cloudflare',
+460 verbose headers   'content-encoding': 'gzip' }
+461 silly get cb [ 200,
+461 silly get   { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+461 silly get     'content-type': 'application/json',
+461 silly get     'transfer-encoding': 'chunked',
+461 silly get     connection: 'keep-alive',
+461 silly get     'set-cookie': [ '__cfduid=d1df2a49974337cdc4c97f2d9b3c127911583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+461 silly get     'cf-ray': '572534dc8c71d57b-DEL',
+461 silly get     age: '1',
+461 silly get     'cache-control': 'public, max-age=300',
+461 silly get     etag: 'W/"20f6a38ec0c6e43c55e4a879f99a8481"',
+461 silly get     'last-modified': 'Tue, 25 Feb 2020 14:21:47 GMT',
+461 silly get     vary: 'accept-encoding, accept',
+461 silly get     'cf-cache-status': 'HIT',
+461 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+461 silly get     server: 'cloudflare',
+461 silly get     'content-encoding': 'gzip' } ]
+462 verbose get saving @syncfusion/ej2-dropdowns to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-dropdowns/.cache.json
+463 silly resolveWithNewModule @syncfusion/ej2-dropdowns@17.4.51 checking installable status
+464 silly cache add args [ '@syncfusion/ej2-dropdowns@~17.4.51', null ]
+465 verbose cache add spec @syncfusion/ej2-dropdowns@~17.4.51
+466 silly cache add parsed spec Result {
+466 silly cache add   raw: '@syncfusion/ej2-dropdowns@~17.4.51',
+466 silly cache add   scope: '@syncfusion',
+466 silly cache add   name: '@syncfusion/ej2-dropdowns',
+466 silly cache add   rawSpec: '~17.4.51',
+466 silly cache add   spec: '>=17.4.51 <17.5.0',
+466 silly cache add   type: 'range' }
+467 silly addNamed @syncfusion/ej2-dropdowns@>=17.4.51 <17.5.0
+468 verbose addNamed ">=17.4.51 <17.5.0" is a valid semver range for @syncfusion/ej2-dropdowns
+469 silly addNameRange { name: '@syncfusion/ej2-dropdowns',
+469 silly addNameRange   range: '>=17.4.51 <17.5.0',
+469 silly addNameRange   hasData: false }
+470 silly mapToRegistry name @syncfusion/ej2-dropdowns
+471 silly mapToRegistry scope (from package name) @syncfusion
+472 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+473 silly mapToRegistry using default registry
+474 silly mapToRegistry registry https://registry.npmjs.org/
+475 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-dropdowns
+476 verbose addNameRange registry:https://registry.npmjs.org/@syncfusion%2fej2-dropdowns not in flight; fetching
+477 http 200 https://registry.npmjs.org/@syncfusion%2fej2-pdf-export
+478 verbose headers { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+478 verbose headers   'content-type': 'application/json',
+478 verbose headers   'transfer-encoding': 'chunked',
+478 verbose headers   connection: 'keep-alive',
+478 verbose headers   'set-cookie': [ '__cfduid=d7cbeadd82e13ca136313cec6b5533be11583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+478 verbose headers   'cf-ray': '572534dccf55d573-DEL',
+478 verbose headers   age: '1',
+478 verbose headers   'cache-control': 'public, max-age=300',
+478 verbose headers   etag: 'W/"0ea8eb474e0ddc754fca14c23d32131e"',
+478 verbose headers   'last-modified': 'Tue, 25 Feb 2020 14:18:58 GMT',
+478 verbose headers   vary: 'accept-encoding, accept',
+478 verbose headers   'cf-cache-status': 'HIT',
+478 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+478 verbose headers   server: 'cloudflare',
+478 verbose headers   'content-encoding': 'gzip' }
+479 silly get cb [ 200,
+479 silly get   { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+479 silly get     'content-type': 'application/json',
+479 silly get     'transfer-encoding': 'chunked',
+479 silly get     connection: 'keep-alive',
+479 silly get     'set-cookie': [ '__cfduid=d7cbeadd82e13ca136313cec6b5533be11583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+479 silly get     'cf-ray': '572534dccf55d573-DEL',
+479 silly get     age: '1',
+479 silly get     'cache-control': 'public, max-age=300',
+479 silly get     etag: 'W/"0ea8eb474e0ddc754fca14c23d32131e"',
+479 silly get     'last-modified': 'Tue, 25 Feb 2020 14:18:58 GMT',
+479 silly get     vary: 'accept-encoding, accept',
+479 silly get     'cf-cache-status': 'HIT',
+479 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+479 silly get     server: 'cloudflare',
+479 silly get     'content-encoding': 'gzip' } ]
+480 verbose get saving @syncfusion/ej2-pdf-export to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-pdf-export/.cache.json
+481 verbose get https://registry.npmjs.org/@syncfusion%2fej2-dropdowns not expired, no request
+482 silly addNameRange number 2 { name: '@syncfusion/ej2-dropdowns',
+482 silly addNameRange   range: '>=17.4.51 <17.5.0',
+482 silly addNameRange   hasData: true }
+483 silly addNameRange versions [ '@syncfusion/ej2-dropdowns',
+483 silly addNameRange   [ '1.0.14',
+483 silly addNameRange     '1.0.16',
+483 silly addNameRange     '1.0.17',
+483 silly addNameRange     '1.0.18',
+483 silly addNameRange     '1.0.19',
+483 silly addNameRange     '1.0.21',
+483 silly addNameRange     '1.0.22',
+483 silly addNameRange     '15.4.17',
+483 silly addNameRange     '15.4.19',
+483 silly addNameRange     '15.4.20',
+483 silly addNameRange     '15.4.21',
+483 silly addNameRange     '15.4.23',
+483 silly addNameRange     '15.4.24',
+483 silly addNameRange     '15.4.25',
+483 silly addNameRange     '15.4.26',
+483 silly addNameRange     '15.4.27',
+483 silly addNameRange     '16.1.24',
+483 silly addNameRange     '16.1.26',
+483 silly addNameRange     '16.1.28',
+483 silly addNameRange     '16.1.29',
+483 silly addNameRange     '16.1.30',
+483 silly addNameRange     '16.1.32',
+483 silly addNameRange     '16.1.33',
+483 silly addNameRange     '16.1.34',
+483 silly addNameRange     '16.1.35',
+483 silly addNameRange     '16.1.37',
+483 silly addNameRange     '16.1.38',
+483 silly addNameRange     '16.1.40',
+483 silly addNameRange     '16.1.42',
+483 silly addNameRange     '16.1.45',
+483 silly addNameRange     '16.1.46',
+483 silly addNameRange     '16.2.41',
+483 silly addNameRange     '16.2.42',
+483 silly addNameRange     '16.2.43',
+483 silly addNameRange     '16.2.44',
+483 silly addNameRange     '16.2.45',
+483 silly addNameRange     '16.2.46',
+483 silly addNameRange     '16.2.47',
+483 silly addNameRange     '16.2.48',
+483 silly addNameRange     '16.2.49',
+483 silly addNameRange     '16.2.50',
+483 silly addNameRange     '16.3.17',
+483 silly addNameRange     '16.3.21',
+483 silly addNameRange     '16.3.23',
+483 silly addNameRange     '16.3.24',
+483 silly addNameRange     '16.3.25',
+483 silly addNameRange     '16.3.27',
+483 silly addNameRange     '16.3.29',
+483 silly addNameRange     '16.3.30',
+483 silly addNameRange     '16.3.32',
+483 silly addNameRange     '16.3.33',
+483 silly addNameRange     '16.3.34',
+483 silly addNameRange     '16.4.40-beta',
+483 silly addNameRange     '16.4.42',
+483 silly addNameRange     '16.4.44',
+483 silly addNameRange     '16.4.46',
+483 silly addNameRange     '16.4.47',
+483 silly addNameRange     '16.4.48',
+483 silly addNameRange     '17.1.1-beta',
+483 silly addNameRange     '16.4.52',
+483 silly addNameRange     '16.4.53',
+483 silly addNameRange     '16.4.54',
+483 silly addNameRange     '16.4.55',
+483 silly addNameRange     '17.1.32-beta',
+483 silly addNameRange     '17.1.38',
+483 silly addNameRange     '17.1.40',
+483 silly addNameRange     '17.1.41',
+483 silly addNameRange     '17.1.42',
+483 silly addNameRange     '17.1.43',
+483 silly addNameRange     '17.1.44',
+483 silly addNameRange     '17.1.47',
+483 silly addNameRange     '17.1.48',
+483 silly addNameRange     '17.1.49',
+483 silly addNameRange     '17.2.28-beta',
+483 silly addNameRange     '17.2.34',
+483 silly addNameRange     '17.2.36',
+483 silly addNameRange     '17.2.39',
+483 silly addNameRange     '17.2.40',
+483 silly addNameRange     '17.2.41',
+483 silly addNameRange     '17.2.46',
+483 silly addNameRange     '17.2.47',
+483 silly addNameRange     '17.2.29-beta',
+483 silly addNameRange     '17.2.48-beta',
+483 silly addNameRange     '17.2.49',
+483 silly addNameRange     '17.3.9-beta',
+483 silly addNameRange     '17.3.14',
+483 silly addNameRange     '17.3.16',
+483 silly addNameRange     '17.3.17',
+483 silly addNameRange     '17.3.19',
+483 silly addNameRange     '17.3.21',
+483 silly addNameRange     '17.3.26',
+483 silly addNameRange     '17.3.27',
+483 silly addNameRange     '17.3.28',
+483 silly addNameRange     '17.3.29',
+483 silly addNameRange     '17.3.30',
+483 silly addNameRange     '17.3.34',
+483 silly addNameRange     '17.4.39',
+483 silly addNameRange     '17.4.40',
+483 silly addNameRange     '17.4.41',
+483 silly addNameRange     '17.4.42',
+483 silly addNameRange     '17.4.43',
+483 silly addNameRange     '17.3.21-1210639',
+483 silly addNameRange     '17.4.44',
+483 silly addNameRange     '17.4.46',
+483 silly addNameRange     '17.4.47',
+483 silly addNameRange     '17.4.49',
+483 silly addNameRange     '17.4.50',
+483 silly addNameRange     '17.4.51' ] ]
+484 silly addNamed @syncfusion/ej2-dropdowns@17.4.51
+485 verbose addNamed "17.4.51" is a plain semver version for @syncfusion/ej2-dropdowns
+486 silly mapToRegistry name @syncfusion/ej2-dropdowns
+487 silly mapToRegistry scope (from package name) @syncfusion
+488 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+489 silly mapToRegistry using default registry
+490 silly mapToRegistry registry https://registry.npmjs.org/
+491 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-dropdowns
+492 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-dropdowns/-/ej2-dropdowns-17.4.51.tgz not in flight; adding
+493 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-dropdowns/-/ej2-dropdowns-17.4.51.tgz',
+493 verbose addRemoteTarball   '902ca815b845501a1ace1048fe7746c390ee8a47' ]
+494 info retry fetch attempt 1 at 5:46:27 PM
+495 info attempt registry request try #1 at 5:46:27 PM
+496 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-dropdowns/-/ej2-dropdowns-17.4.51.tgz
+497 silly resolveWithNewModule @syncfusion/ej2-pdf-export@17.4.51 checking installable status
+498 silly cache add args [ '@syncfusion/ej2-pdf-export@~17.4.51', null ]
+499 verbose cache add spec @syncfusion/ej2-pdf-export@~17.4.51
+500 silly cache add parsed spec Result {
+500 silly cache add   raw: '@syncfusion/ej2-pdf-export@~17.4.51',
+500 silly cache add   scope: '@syncfusion',
+500 silly cache add   name: '@syncfusion/ej2-pdf-export',
+500 silly cache add   rawSpec: '~17.4.51',
+500 silly cache add   spec: '>=17.4.51 <17.5.0',
+500 silly cache add   type: 'range' }
+501 silly addNamed @syncfusion/ej2-pdf-export@>=17.4.51 <17.5.0
+502 verbose addNamed ">=17.4.51 <17.5.0" is a valid semver range for @syncfusion/ej2-pdf-export
+503 silly addNameRange { name: '@syncfusion/ej2-pdf-export',
+503 silly addNameRange   range: '>=17.4.51 <17.5.0',
+503 silly addNameRange   hasData: false }
+504 silly mapToRegistry name @syncfusion/ej2-pdf-export
+505 silly mapToRegistry scope (from package name) @syncfusion
+506 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+507 silly mapToRegistry using default registry
+508 silly mapToRegistry registry https://registry.npmjs.org/
+509 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-pdf-export
+510 verbose addNameRange registry:https://registry.npmjs.org/@syncfusion%2fej2-pdf-export not in flight; fetching
+511 http 200 https://registry.npmjs.org/@syncfusion%2fej2-buttons
+512 verbose headers { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+512 verbose headers   'content-type': 'application/json',
+512 verbose headers   'transfer-encoding': 'chunked',
+512 verbose headers   connection: 'keep-alive',
+512 verbose headers   'set-cookie': [ '__cfduid=da989bb6e3a1cf103fce3296a155432701583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+512 verbose headers   'cf-ray': '572534dc8da1d563-DEL',
+512 verbose headers   age: '1',
+512 verbose headers   'cache-control': 'public, max-age=300',
+512 verbose headers   etag: 'W/"749358d4370c7da8f8843cb47c508110"',
+512 verbose headers   'last-modified': 'Tue, 25 Feb 2020 14:17:28 GMT',
+512 verbose headers   vary: 'accept-encoding, accept',
+512 verbose headers   'cf-cache-status': 'HIT',
+512 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+512 verbose headers   server: 'cloudflare',
+512 verbose headers   'content-encoding': 'gzip' }
+513 silly get cb [ 200,
+513 silly get   { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+513 silly get     'content-type': 'application/json',
+513 silly get     'transfer-encoding': 'chunked',
+513 silly get     connection: 'keep-alive',
+513 silly get     'set-cookie': [ '__cfduid=da989bb6e3a1cf103fce3296a155432701583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+513 silly get     'cf-ray': '572534dc8da1d563-DEL',
+513 silly get     age: '1',
+513 silly get     'cache-control': 'public, max-age=300',
+513 silly get     etag: 'W/"749358d4370c7da8f8843cb47c508110"',
+513 silly get     'last-modified': 'Tue, 25 Feb 2020 14:17:28 GMT',
+513 silly get     vary: 'accept-encoding, accept',
+513 silly get     'cf-cache-status': 'HIT',
+513 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+513 silly get     server: 'cloudflare',
+513 silly get     'content-encoding': 'gzip' } ]
+514 verbose get saving @syncfusion/ej2-buttons to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-buttons/.cache.json
+515 verbose get https://registry.npmjs.org/@syncfusion%2fej2-pdf-export not expired, no request
+516 silly addNameRange number 2 { name: '@syncfusion/ej2-pdf-export',
+516 silly addNameRange   range: '>=17.4.51 <17.5.0',
+516 silly addNameRange   hasData: true }
+517 silly addNameRange versions [ '@syncfusion/ej2-pdf-export',
+517 silly addNameRange   [ '1.0.23',
+517 silly addNameRange     '15.4.17',
+517 silly addNameRange     '15.4.18',
+517 silly addNameRange     '15.4.19',
+517 silly addNameRange     '15.4.20',
+517 silly addNameRange     '15.4.21',
+517 silly addNameRange     '15.4.22',
+517 silly addNameRange     '15.4.23',
+517 silly addNameRange     '15.4.24',
+517 silly addNameRange     '15.4.25',
+517 silly addNameRange     '15.4.26',
+517 silly addNameRange     '15.4.27',
+517 silly addNameRange     '15.4.28',
+517 silly addNameRange     '15.4.29',
+517 silly addNameRange     '15.4.30',
+517 silly addNameRange     '16.1.24',
+517 silly addNameRange     '16.1.26',
+517 silly addNameRange     '16.1.28',
+517 silly addNameRange     '16.1.32',
+517 silly addNameRange     '16.1.37',
+517 silly addNameRange     '16.2.41',
+517 silly addNameRange     '16.2.45',
+517 silly addNameRange     '16.2.46',
+517 silly addNameRange     '16.2.49',
+517 silly addNameRange     '16.2.50',
+517 silly addNameRange     '16.3.17',
+517 silly addNameRange     '16.3.21',
+517 silly addNameRange     '16.3.24',
+517 silly addNameRange     '16.3.27',
+517 silly addNameRange     '16.3.29',
+517 silly addNameRange     '16.3.30',
+517 silly addNameRange     '16.3.33',
+517 silly addNameRange     '16.3.34',
+517 silly addNameRange     '16.4.40-beta',
+517 silly addNameRange     '16.4.42',
+517 silly addNameRange     '16.4.47',
+517 silly addNameRange     '17.1.1-beta',
+517 silly addNameRange     '16.4.52',
+517 silly addNameRange     '17.1.32-beta',
+517 silly addNameRange     '17.1.38',
+517 silly addNameRange     '17.1.42',
+517 silly addNameRange     '17.1.47',
+517 silly addNameRange     '17.1.48',
+517 silly addNameRange     '17.2.28-beta',
+517 silly addNameRange     '17.2.34',
+517 silly addNameRange     '17.2.35',
+517 silly addNameRange     '17.2.40',
+517 silly addNameRange     '17.2.46',
+517 silly addNameRange     '17.2.47',
+517 silly addNameRange     '17.2.29-beta',
+517 silly addNameRange     '17.2.48-beta',
+517 silly addNameRange     '17.3.9-beta',
+517 silly addNameRange     '17.3.14',
+517 silly addNameRange     '17.3.16',
+517 silly addNameRange     '17.3.19',
+517 silly addNameRange     '17.3.26',
+517 silly addNameRange     '17.3.27',
+517 silly addNameRange     '17.4.39',
+517 silly addNameRange     '17.4.40',
+517 silly addNameRange     '17.4.43',
+517 silly addNameRange     '17.4.46',
+517 silly addNameRange     '17.4.47',
+517 silly addNameRange     '17.4.51' ] ]
+518 silly addNamed @syncfusion/ej2-pdf-export@17.4.51
+519 verbose addNamed "17.4.51" is a plain semver version for @syncfusion/ej2-pdf-export
+520 silly mapToRegistry name @syncfusion/ej2-pdf-export
+521 silly mapToRegistry scope (from package name) @syncfusion
+522 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+523 silly mapToRegistry using default registry
+524 silly mapToRegistry registry https://registry.npmjs.org/
+525 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-pdf-export
+526 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-pdf-export/-/ej2-pdf-export-17.4.51.tgz not in flight; adding
+527 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-pdf-export/-/ej2-pdf-export-17.4.51.tgz',
+527 verbose addRemoteTarball   '0cc7accb9f3c01fcf31e813f178c0a3ffe91256e' ]
+528 info retry fetch attempt 1 at 5:46:27 PM
+529 info attempt registry request try #1 at 5:46:27 PM
+530 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-pdf-export/-/ej2-pdf-export-17.4.51.tgz
+531 silly resolveWithNewModule @syncfusion/ej2-buttons@17.4.51 checking installable status
+532 silly cache add args [ '@syncfusion/ej2-buttons@~17.4.51', null ]
+533 verbose cache add spec @syncfusion/ej2-buttons@~17.4.51
+534 silly cache add parsed spec Result {
+534 silly cache add   raw: '@syncfusion/ej2-buttons@~17.4.51',
+534 silly cache add   scope: '@syncfusion',
+534 silly cache add   name: '@syncfusion/ej2-buttons',
+534 silly cache add   rawSpec: '~17.4.51',
+534 silly cache add   spec: '>=17.4.51 <17.5.0',
+534 silly cache add   type: 'range' }
+535 silly addNamed @syncfusion/ej2-buttons@>=17.4.51 <17.5.0
+536 verbose addNamed ">=17.4.51 <17.5.0" is a valid semver range for @syncfusion/ej2-buttons
+537 silly addNameRange { name: '@syncfusion/ej2-buttons',
+537 silly addNameRange   range: '>=17.4.51 <17.5.0',
+537 silly addNameRange   hasData: false }
+538 silly mapToRegistry name @syncfusion/ej2-buttons
+539 silly mapToRegistry scope (from package name) @syncfusion
+540 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+541 silly mapToRegistry using default registry
+542 silly mapToRegistry registry https://registry.npmjs.org/
+543 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-buttons
+544 verbose addNameRange registry:https://registry.npmjs.org/@syncfusion%2fej2-buttons not in flight; fetching
+545 verbose get https://registry.npmjs.org/@syncfusion%2fej2-buttons not expired, no request
+546 silly addNameRange number 2 { name: '@syncfusion/ej2-buttons',
+546 silly addNameRange   range: '>=17.4.51 <17.5.0',
+546 silly addNameRange   hasData: true }
+547 silly addNameRange versions [ '@syncfusion/ej2-buttons',
+547 silly addNameRange   [ '1.0.8',
+547 silly addNameRange     '1.0.9',
+547 silly addNameRange     '1.0.10',
+547 silly addNameRange     '1.0.11',
+547 silly addNameRange     '1.0.14',
+547 silly addNameRange     '1.0.18',
+547 silly addNameRange     '1.0.19',
+547 silly addNameRange     '1.0.22',
+547 silly addNameRange     '1.0.25',
+547 silly addNameRange     '15.4.17',
+547 silly addNameRange     '15.4.20',
+547 silly addNameRange     '15.4.21',
+547 silly addNameRange     '15.4.22',
+547 silly addNameRange     '15.4.23',
+547 silly addNameRange     '15.4.26',
+547 silly addNameRange     '15.4.27',
+547 silly addNameRange     '15.4.30',
+547 silly addNameRange     '16.1.24',
+547 silly addNameRange     '16.1.26',
+547 silly addNameRange     '16.1.28',
+547 silly addNameRange     '16.1.32',
+547 silly addNameRange     '16.1.35',
+547 silly addNameRange     '16.1.37',
+547 silly addNameRange     '16.1.48',
+547 silly addNameRange     '16.2.41',
+547 silly addNameRange     '16.2.45',
+547 silly addNameRange     '16.2.46',
+547 silly addNameRange     '16.2.47',
+547 silly addNameRange     '16.2.49',
+547 silly addNameRange     '16.2.50',
+547 silly addNameRange     '16.3.17',
+547 silly addNameRange     '16.3.21',
+547 silly addNameRange     '16.3.24',
+547 silly addNameRange     '16.3.25',
+547 silly addNameRange     '16.3.29',
+547 silly addNameRange     '16.3.30',
+547 silly addNameRange     '16.3.33',
+547 silly addNameRange     '16.3.34',
+547 silly addNameRange     '16.4.40-beta',
+547 silly addNameRange     '16.4.42',
+547 silly addNameRange     '16.4.47',
+547 silly addNameRange     '17.1.1-beta',
+547 silly addNameRange     '16.4.52',
+547 silly addNameRange     '16.4.53',
+547 silly addNameRange     '16.4.55',
+547 silly addNameRange     '17.1.32-beta',
+547 silly addNameRange     '17.1.38',
+547 silly addNameRange     '17.1.40',
+547 silly addNameRange     '17.1.42',
+547 silly addNameRange     '17.1.47',
+547 silly addNameRange     '17.1.50',
+547 silly addNameRange     '17.2.28-beta',
+547 silly addNameRange     '17.2.34',
+547 silly addNameRange     '17.2.35',
+547 silly addNameRange     '17.2.46',
+547 silly addNameRange     '17.2.47',
+547 silly addNameRange     '17.2.29-beta',
+547 silly addNameRange     '17.2.48-beta',
+547 silly addNameRange     '17.3.9-beta',
+547 silly addNameRange     '17.3.14',
+547 silly addNameRange     '17.3.15',
+547 silly addNameRange     '17.3.16',
+547 silly addNameRange     '17.3.19',
+547 silly addNameRange     '17.3.26',
+547 silly addNameRange     '17.3.27',
+547 silly addNameRange     '17.4.39',
+547 silly addNameRange     '17.4.41',
+547 silly addNameRange     '17.4.43',
+547 silly addNameRange     '17.4.46',
+547 silly addNameRange     '17.4.47',
+547 silly addNameRange     '17.4.49',
+547 silly addNameRange     '17.4.51' ] ]
+548 silly addNamed @syncfusion/ej2-buttons@17.4.51
+549 verbose addNamed "17.4.51" is a plain semver version for @syncfusion/ej2-buttons
+550 silly mapToRegistry name @syncfusion/ej2-buttons
+551 silly mapToRegistry scope (from package name) @syncfusion
+552 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+553 silly mapToRegistry using default registry
+554 silly mapToRegistry registry https://registry.npmjs.org/
+555 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-buttons
+556 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-buttons/-/ej2-buttons-17.4.51.tgz not in flight; adding
+557 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-buttons/-/ej2-buttons-17.4.51.tgz',
+557 verbose addRemoteTarball   'b726d9a79a859e50345a92a16f63a4300dd1418a' ]
+558 http 200 https://registry.npmjs.org/@syncfusion%2fej2-splitbuttons
+559 verbose headers { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+559 verbose headers   'content-type': 'application/json',
+559 verbose headers   'transfer-encoding': 'chunked',
+559 verbose headers   connection: 'keep-alive',
+559 verbose headers   'set-cookie': [ '__cfduid=da16e8d42371e1a18eca70a52cc93ef6d1583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+559 verbose headers   'cf-ray': '572534dd0cbed557-DEL',
+559 verbose headers   age: '1',
+559 verbose headers   'cache-control': 'public, max-age=300',
+559 verbose headers   etag: 'W/"9f782d381d5cd94048b03bdbd955e4b6"',
+559 verbose headers   'last-modified': 'Tue, 10 Mar 2020 10:48:37 GMT',
+559 verbose headers   vary: 'accept-encoding, accept',
+559 verbose headers   'cf-cache-status': 'HIT',
+559 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+559 verbose headers   server: 'cloudflare',
+559 verbose headers   'content-encoding': 'gzip' }
+560 silly get cb [ 200,
+560 silly get   { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+560 silly get     'content-type': 'application/json',
+560 silly get     'transfer-encoding': 'chunked',
+560 silly get     connection: 'keep-alive',
+560 silly get     'set-cookie': [ '__cfduid=da16e8d42371e1a18eca70a52cc93ef6d1583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+560 silly get     'cf-ray': '572534dd0cbed557-DEL',
+560 silly get     age: '1',
+560 silly get     'cache-control': 'public, max-age=300',
+560 silly get     etag: 'W/"9f782d381d5cd94048b03bdbd955e4b6"',
+560 silly get     'last-modified': 'Tue, 10 Mar 2020 10:48:37 GMT',
+560 silly get     vary: 'accept-encoding, accept',
+560 silly get     'cf-cache-status': 'HIT',
+560 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+560 silly get     server: 'cloudflare',
+560 silly get     'content-encoding': 'gzip' } ]
+561 verbose get saving @syncfusion/ej2-splitbuttons to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-splitbuttons/.cache.json
+562 info retry fetch attempt 1 at 5:46:27 PM
+563 info attempt registry request try #1 at 5:46:27 PM
+564 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-buttons/-/ej2-buttons-17.4.51.tgz
+565 silly resolveWithNewModule @syncfusion/ej2-splitbuttons@17.4.55 checking installable status
+566 silly cache add args [ '@syncfusion/ej2-splitbuttons@~17.4.55', null ]
+567 verbose cache add spec @syncfusion/ej2-splitbuttons@~17.4.55
+568 silly cache add parsed spec Result {
+568 silly cache add   raw: '@syncfusion/ej2-splitbuttons@~17.4.55',
+568 silly cache add   scope: '@syncfusion',
+568 silly cache add   name: '@syncfusion/ej2-splitbuttons',
+568 silly cache add   rawSpec: '~17.4.55',
+568 silly cache add   spec: '>=17.4.55 <17.5.0',
+568 silly cache add   type: 'range' }
+569 silly addNamed @syncfusion/ej2-splitbuttons@>=17.4.55 <17.5.0
+570 verbose addNamed ">=17.4.55 <17.5.0" is a valid semver range for @syncfusion/ej2-splitbuttons
+571 silly addNameRange { name: '@syncfusion/ej2-splitbuttons',
+571 silly addNameRange   range: '>=17.4.55 <17.5.0',
+571 silly addNameRange   hasData: false }
+572 silly mapToRegistry name @syncfusion/ej2-splitbuttons
+573 silly mapToRegistry scope (from package name) @syncfusion
+574 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+575 silly mapToRegistry using default registry
+576 silly mapToRegistry registry https://registry.npmjs.org/
+577 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-splitbuttons
+578 verbose addNameRange registry:https://registry.npmjs.org/@syncfusion%2fej2-splitbuttons not in flight; fetching
+579 verbose get https://registry.npmjs.org/@syncfusion%2fej2-splitbuttons not expired, no request
+580 silly addNameRange number 2 { name: '@syncfusion/ej2-splitbuttons',
+580 silly addNameRange   range: '>=17.4.55 <17.5.0',
+580 silly addNameRange   hasData: true }
+581 silly addNameRange versions [ '@syncfusion/ej2-splitbuttons',
+581 silly addNameRange   [ '16.1.24',
+581 silly addNameRange     '16.1.26',
+581 silly addNameRange     '16.1.28',
+581 silly addNameRange     '16.1.32',
+581 silly addNameRange     '16.1.35',
+581 silly addNameRange     '16.1.37',
+581 silly addNameRange     '16.2.41',
+581 silly addNameRange     '16.2.44',
+581 silly addNameRange     '16.2.45',
+581 silly addNameRange     '16.2.46',
+581 silly addNameRange     '16.2.48',
+581 silly addNameRange     '16.2.49',
+581 silly addNameRange     '16.2.50',
+581 silly addNameRange     '16.3.17',
+581 silly addNameRange     '16.3.21',
+581 silly addNameRange     '16.3.22',
+581 silly addNameRange     '16.3.24',
+581 silly addNameRange     '16.3.29',
+581 silly addNameRange     '16.3.30',
+581 silly addNameRange     '16.3.33',
+581 silly addNameRange     '16.3.34',
+581 silly addNameRange     '16.4.40-beta',
+581 silly addNameRange     '16.4.42',
+581 silly addNameRange     '16.4.46',
+581 silly addNameRange     '16.4.47',
+581 silly addNameRange     '17.1.1-beta',
+581 silly addNameRange     '16.4.52',
+581 silly addNameRange     '16.4.53',
+581 silly addNameRange     '17.1.32-beta',
+581 silly addNameRange     '17.1.38',
+581 silly addNameRange     '17.1.42',
+581 silly addNameRange     '17.1.47',
+581 silly addNameRange     '17.1.50',
+581 silly addNameRange     '17.1.51',
+581 silly addNameRange     '17.2.28-beta',
+581 silly addNameRange     '17.2.34',
+581 silly addNameRange     '17.2.39',
+581 silly addNameRange     '17.2.40',
+581 silly addNameRange     '17.2.46',
+581 silly addNameRange     '17.2.47',
+581 silly addNameRange     '17.2.29-beta',
+581 silly addNameRange     '17.2.48-beta',
+581 silly addNameRange     '17.3.9-beta',
+581 silly addNameRange     '17.3.14',
+581 silly addNameRange     '17.3.19',
+581 silly addNameRange     '17.3.26',
+581 silly addNameRange     '17.3.27',
+581 silly addNameRange     '17.4.39',
+581 silly addNameRange     '17.4.43',
+581 silly addNameRange     '17.4.46',
+581 silly addNameRange     '17.4.47',
+581 silly addNameRange     '17.4.49',
+581 silly addNameRange     '17.4.51',
+581 silly addNameRange     '17.4.55' ] ]
+582 silly addNamed @syncfusion/ej2-splitbuttons@17.4.55
+583 verbose addNamed "17.4.55" is a plain semver version for @syncfusion/ej2-splitbuttons
+584 silly mapToRegistry name @syncfusion/ej2-splitbuttons
+585 silly mapToRegistry scope (from package name) @syncfusion
+586 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+587 silly mapToRegistry using default registry
+588 silly mapToRegistry registry https://registry.npmjs.org/
+589 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-splitbuttons
+590 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-splitbuttons/-/ej2-splitbuttons-17.4.55.tgz not in flight; adding
+591 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-splitbuttons/-/ej2-splitbuttons-17.4.55.tgz',
+591 verbose addRemoteTarball   'd4405446c0b61eaad6a5d4644e6f1474f18bb623' ]
+592 http 200 https://registry.npmjs.org/@syncfusion%2fej2-navigations
+593 verbose headers { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+593 verbose headers   'content-type': 'application/json',
+593 verbose headers   'transfer-encoding': 'chunked',
+593 verbose headers   connection: 'keep-alive',
+593 verbose headers   'set-cookie': [ '__cfduid=d54cf5cde68a88f9873ae21bf7646e31e1583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+593 verbose headers   'cf-ray': '572534dd3826d577-DEL',
+593 verbose headers   age: '15491',
+593 verbose headers   'cache-control': 'public, max-age=300',
+593 verbose headers   etag: 'W/"152786f332e292ba308e9b2490184cb8"',
+593 verbose headers   'last-modified': 'Tue, 10 Mar 2020 10:49:47 GMT',
+593 verbose headers   vary: 'accept-encoding, accept',
+593 verbose headers   'cf-cache-status': 'UPDATING',
+593 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+593 verbose headers   server: 'cloudflare',
+593 verbose headers   'content-encoding': 'gzip' }
+594 silly get cb [ 200,
+594 silly get   { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+594 silly get     'content-type': 'application/json',
+594 silly get     'transfer-encoding': 'chunked',
+594 silly get     connection: 'keep-alive',
+594 silly get     'set-cookie': [ '__cfduid=d54cf5cde68a88f9873ae21bf7646e31e1583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+594 silly get     'cf-ray': '572534dd3826d577-DEL',
+594 silly get     age: '15491',
+594 silly get     'cache-control': 'public, max-age=300',
+594 silly get     etag: 'W/"152786f332e292ba308e9b2490184cb8"',
+594 silly get     'last-modified': 'Tue, 10 Mar 2020 10:49:47 GMT',
+594 silly get     vary: 'accept-encoding, accept',
+594 silly get     'cf-cache-status': 'UPDATING',
+594 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+594 silly get     server: 'cloudflare',
+594 silly get     'content-encoding': 'gzip' } ]
+595 verbose get saving @syncfusion/ej2-navigations to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-navigations/.cache.json
+596 http 200 https://registry.npmjs.org/@syncfusion%2fej2-inputs
+597 verbose headers { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+597 verbose headers   'content-type': 'application/json',
+597 verbose headers   'transfer-encoding': 'chunked',
+597 verbose headers   connection: 'keep-alive',
+597 verbose headers   'set-cookie': [ '__cfduid=d1df2a49974337cdc4c97f2d9b3c127911583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+597 verbose headers   'cf-ray': '572534dc9c84d57b-DEL',
+597 verbose headers   age: '21327',
+597 verbose headers   'cache-control': 'public, max-age=300',
+597 verbose headers   etag: 'W/"aab1126c527d0959b5e9b69835918118"',
+597 verbose headers   'last-modified': 'Tue, 10 Mar 2020 10:49:09 GMT',
+597 verbose headers   vary: 'accept-encoding, accept',
+597 verbose headers   'cf-cache-status': 'UPDATING',
+597 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+597 verbose headers   server: 'cloudflare',
+597 verbose headers   'content-encoding': 'gzip' }
+598 silly get cb [ 200,
+598 silly get   { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+598 silly get     'content-type': 'application/json',
+598 silly get     'transfer-encoding': 'chunked',
+598 silly get     connection: 'keep-alive',
+598 silly get     'set-cookie': [ '__cfduid=d1df2a49974337cdc4c97f2d9b3c127911583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+598 silly get     'cf-ray': '572534dc9c84d57b-DEL',
+598 silly get     age: '21327',
+598 silly get     'cache-control': 'public, max-age=300',
+598 silly get     etag: 'W/"aab1126c527d0959b5e9b69835918118"',
+598 silly get     'last-modified': 'Tue, 10 Mar 2020 10:49:09 GMT',
+598 silly get     vary: 'accept-encoding, accept',
+598 silly get     'cf-cache-status': 'UPDATING',
+598 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+598 silly get     server: 'cloudflare',
+598 silly get     'content-encoding': 'gzip' } ]
+599 verbose get saving @syncfusion/ej2-inputs to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-inputs/.cache.json
+600 info retry fetch attempt 1 at 5:46:27 PM
+601 info attempt registry request try #1 at 5:46:27 PM
+602 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-splitbuttons/-/ej2-splitbuttons-17.4.55.tgz
+603 http 200 https://registry.npmjs.org/@syncfusion%2fej2-file-utils
+604 verbose headers { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+604 verbose headers   'content-type': 'application/json',
+604 verbose headers   'transfer-encoding': 'chunked',
+604 verbose headers   connection: 'keep-alive',
+604 verbose headers   'set-cookie': [ '__cfduid=da989bb6e3a1cf103fce3296a155432701583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+604 verbose headers   'cf-ray': '572534dcfe4ad563-DEL',
+604 verbose headers   age: '1',
+604 verbose headers   'cache-control': 'public, max-age=300',
+604 verbose headers   etag: 'W/"443b0651799a370c8a74beeda5a42a52"',
+604 verbose headers   'last-modified': 'Tue, 25 Feb 2020 14:18:46 GMT',
+604 verbose headers   vary: 'accept-encoding, accept',
+604 verbose headers   'cf-cache-status': 'HIT',
+604 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+604 verbose headers   server: 'cloudflare',
+604 verbose headers   'content-encoding': 'gzip' }
+605 silly get cb [ 200,
+605 silly get   { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+605 silly get     'content-type': 'application/json',
+605 silly get     'transfer-encoding': 'chunked',
+605 silly get     connection: 'keep-alive',
+605 silly get     'set-cookie': [ '__cfduid=da989bb6e3a1cf103fce3296a155432701583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+605 silly get     'cf-ray': '572534dcfe4ad563-DEL',
+605 silly get     age: '1',
+605 silly get     'cache-control': 'public, max-age=300',
+605 silly get     etag: 'W/"443b0651799a370c8a74beeda5a42a52"',
+605 silly get     'last-modified': 'Tue, 25 Feb 2020 14:18:46 GMT',
+605 silly get     vary: 'accept-encoding, accept',
+605 silly get     'cf-cache-status': 'HIT',
+605 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+605 silly get     server: 'cloudflare',
+605 silly get     'content-encoding': 'gzip' } ]
+606 verbose get saving @syncfusion/ej2-file-utils to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-file-utils/.cache.json
+607 http 200 https://registry.npmjs.org/@syncfusion%2fej2-popups
+608 verbose headers { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+608 verbose headers   'content-type': 'application/json',
+608 verbose headers   'transfer-encoding': 'chunked',
+608 verbose headers   connection: 'keep-alive',
+608 verbose headers   'set-cookie': [ '__cfduid=d7cbeadd82e13ca136313cec6b5533be11583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+608 verbose headers   'cf-ray': '572534dcbf51d573-DEL',
+608 verbose headers   age: '1',
+608 verbose headers   'cache-control': 'public, max-age=300',
+608 verbose headers   etag: 'W/"ef2b10f544f444f6a24e6b0087c20f53"',
+608 verbose headers   'last-modified': 'Tue, 25 Feb 2020 14:17:52 GMT',
+608 verbose headers   vary: 'accept-encoding, accept',
+608 verbose headers   'cf-cache-status': 'HIT',
+608 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+608 verbose headers   server: 'cloudflare',
+608 verbose headers   'content-encoding': 'gzip' }
+609 silly get cb [ 200,
+609 silly get   { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+609 silly get     'content-type': 'application/json',
+609 silly get     'transfer-encoding': 'chunked',
+609 silly get     connection: 'keep-alive',
+609 silly get     'set-cookie': [ '__cfduid=d7cbeadd82e13ca136313cec6b5533be11583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+609 silly get     'cf-ray': '572534dcbf51d573-DEL',
+609 silly get     age: '1',
+609 silly get     'cache-control': 'public, max-age=300',
+609 silly get     etag: 'W/"ef2b10f544f444f6a24e6b0087c20f53"',
+609 silly get     'last-modified': 'Tue, 25 Feb 2020 14:17:52 GMT',
+609 silly get     vary: 'accept-encoding, accept',
+609 silly get     'cf-cache-status': 'HIT',
+609 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+609 silly get     server: 'cloudflare',
+609 silly get     'content-encoding': 'gzip' } ]
+610 verbose get saving @syncfusion/ej2-popups to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-popups/.cache.json
+611 http 200 https://registry.npmjs.org/@syncfusion%2fej2-compression
+612 verbose headers { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+612 verbose headers   'content-type': 'application/json',
+612 verbose headers   'transfer-encoding': 'chunked',
+612 verbose headers   connection: 'keep-alive',
+612 verbose headers   'set-cookie': [ '__cfduid=da16e8d42371e1a18eca70a52cc93ef6d1583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+612 verbose headers   'cf-ray': '572534dccc89d557-DEL',
+612 verbose headers   age: '1',
+612 verbose headers   'cache-control': 'public, max-age=300',
+612 verbose headers   etag: 'W/"30c6ad9a4b29102c4a20b6a437f343d4"',
+612 verbose headers   'last-modified': 'Tue, 25 Feb 2020 14:18:52 GMT',
+612 verbose headers   vary: 'accept-encoding, accept',
+612 verbose headers   'cf-cache-status': 'HIT',
+612 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+612 verbose headers   server: 'cloudflare',
+612 verbose headers   'content-encoding': 'gzip' }
+613 silly get cb [ 200,
+613 silly get   { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+613 silly get     'content-type': 'application/json',
+613 silly get     'transfer-encoding': 'chunked',
+613 silly get     connection: 'keep-alive',
+613 silly get     'set-cookie': [ '__cfduid=da16e8d42371e1a18eca70a52cc93ef6d1583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+613 silly get     'cf-ray': '572534dccc89d557-DEL',
+613 silly get     age: '1',
+613 silly get     'cache-control': 'public, max-age=300',
+613 silly get     etag: 'W/"30c6ad9a4b29102c4a20b6a437f343d4"',
+613 silly get     'last-modified': 'Tue, 25 Feb 2020 14:18:52 GMT',
+613 silly get     vary: 'accept-encoding, accept',
+613 silly get     'cf-cache-status': 'HIT',
+613 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+613 silly get     server: 'cloudflare',
+613 silly get     'content-encoding': 'gzip' } ]
+614 verbose get saving @syncfusion/ej2-compression to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-compression/.cache.json
+615 silly resolveWithNewModule @syncfusion/ej2-navigations@17.4.55 checking installable status
+616 silly cache add args [ '@syncfusion/ej2-navigations@~17.4.55', null ]
+617 verbose cache add spec @syncfusion/ej2-navigations@~17.4.55
+618 silly cache add parsed spec Result {
+618 silly cache add   raw: '@syncfusion/ej2-navigations@~17.4.55',
+618 silly cache add   scope: '@syncfusion',
+618 silly cache add   name: '@syncfusion/ej2-navigations',
+618 silly cache add   rawSpec: '~17.4.55',
+618 silly cache add   spec: '>=17.4.55 <17.5.0',
+618 silly cache add   type: 'range' }
+619 silly addNamed @syncfusion/ej2-navigations@>=17.4.55 <17.5.0
+620 verbose addNamed ">=17.4.55 <17.5.0" is a valid semver range for @syncfusion/ej2-navigations
+621 silly addNameRange { name: '@syncfusion/ej2-navigations',
+621 silly addNameRange   range: '>=17.4.55 <17.5.0',
+621 silly addNameRange   hasData: false }
+622 silly mapToRegistry name @syncfusion/ej2-navigations
+623 silly mapToRegistry scope (from package name) @syncfusion
+624 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+625 silly mapToRegistry using default registry
+626 silly mapToRegistry registry https://registry.npmjs.org/
+627 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-navigations
+628 verbose addNameRange registry:https://registry.npmjs.org/@syncfusion%2fej2-navigations not in flight; fetching
+629 silly resolveWithNewModule @syncfusion/ej2-inputs@17.4.55 checking installable status
+630 silly cache add args [ '@syncfusion/ej2-inputs@~17.4.55', null ]
+631 verbose cache add spec @syncfusion/ej2-inputs@~17.4.55
+632 silly cache add parsed spec Result {
+632 silly cache add   raw: '@syncfusion/ej2-inputs@~17.4.55',
+632 silly cache add   scope: '@syncfusion',
+632 silly cache add   name: '@syncfusion/ej2-inputs',
+632 silly cache add   rawSpec: '~17.4.55',
+632 silly cache add   spec: '>=17.4.55 <17.5.0',
+632 silly cache add   type: 'range' }
+633 silly addNamed @syncfusion/ej2-inputs@>=17.4.55 <17.5.0
+634 verbose addNamed ">=17.4.55 <17.5.0" is a valid semver range for @syncfusion/ej2-inputs
+635 silly addNameRange { name: '@syncfusion/ej2-inputs',
+635 silly addNameRange   range: '>=17.4.55 <17.5.0',
+635 silly addNameRange   hasData: false }
+636 silly mapToRegistry name @syncfusion/ej2-inputs
+637 silly mapToRegistry scope (from package name) @syncfusion
+638 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+639 silly mapToRegistry using default registry
+640 silly mapToRegistry registry https://registry.npmjs.org/
+641 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-inputs
+642 verbose addNameRange registry:https://registry.npmjs.org/@syncfusion%2fej2-inputs not in flight; fetching
+643 silly resolveWithNewModule @syncfusion/ej2-file-utils@17.4.51 checking installable status
+644 silly cache add args [ '@syncfusion/ej2-file-utils@~17.4.51', null ]
+645 verbose cache add spec @syncfusion/ej2-file-utils@~17.4.51
+646 silly cache add parsed spec Result {
+646 silly cache add   raw: '@syncfusion/ej2-file-utils@~17.4.51',
+646 silly cache add   scope: '@syncfusion',
+646 silly cache add   name: '@syncfusion/ej2-file-utils',
+646 silly cache add   rawSpec: '~17.4.51',
+646 silly cache add   spec: '>=17.4.51 <17.5.0',
+646 silly cache add   type: 'range' }
+647 silly addNamed @syncfusion/ej2-file-utils@>=17.4.51 <17.5.0
+648 verbose addNamed ">=17.4.51 <17.5.0" is a valid semver range for @syncfusion/ej2-file-utils
+649 silly addNameRange { name: '@syncfusion/ej2-file-utils',
+649 silly addNameRange   range: '>=17.4.51 <17.5.0',
+649 silly addNameRange   hasData: false }
+650 silly mapToRegistry name @syncfusion/ej2-file-utils
+651 silly mapToRegistry scope (from package name) @syncfusion
+652 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+653 silly mapToRegistry using default registry
+654 silly mapToRegistry registry https://registry.npmjs.org/
+655 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-file-utils
+656 verbose addNameRange registry:https://registry.npmjs.org/@syncfusion%2fej2-file-utils not in flight; fetching
+657 http 200 https://registry.npmjs.org/@syncfusion%2fej2-excel-export
+658 verbose headers { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+658 verbose headers   'content-type': 'application/json',
+658 verbose headers   'transfer-encoding': 'chunked',
+658 verbose headers   connection: 'keep-alive',
+658 verbose headers   'set-cookie': [ '__cfduid=df0dbcf81e5dfa5e4f16cfdffc2ad7bff1583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+658 verbose headers   'cf-ray': '572534dcbf772f03-DEL',
+658 verbose headers   age: '1',
+658 verbose headers   'cache-control': 'public, max-age=300',
+658 verbose headers   etag: 'W/"262477b3479f1ab8e539102e9b4c8bd7"',
+658 verbose headers   'last-modified': 'Tue, 25 Feb 2020 14:22:47 GMT',
+658 verbose headers   vary: 'accept-encoding, accept',
+658 verbose headers   'cf-cache-status': 'HIT',
+658 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+658 verbose headers   server: 'cloudflare',
+658 verbose headers   'content-encoding': 'gzip' }
+659 silly get cb [ 200,
+659 silly get   { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+659 silly get     'content-type': 'application/json',
+659 silly get     'transfer-encoding': 'chunked',
+659 silly get     connection: 'keep-alive',
+659 silly get     'set-cookie': [ '__cfduid=df0dbcf81e5dfa5e4f16cfdffc2ad7bff1583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+659 silly get     'cf-ray': '572534dcbf772f03-DEL',
+659 silly get     age: '1',
+659 silly get     'cache-control': 'public, max-age=300',
+659 silly get     etag: 'W/"262477b3479f1ab8e539102e9b4c8bd7"',
+659 silly get     'last-modified': 'Tue, 25 Feb 2020 14:22:47 GMT',
+659 silly get     vary: 'accept-encoding, accept',
+659 silly get     'cf-cache-status': 'HIT',
+659 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+659 silly get     server: 'cloudflare',
+659 silly get     'content-encoding': 'gzip' } ]
+660 verbose get saving @syncfusion/ej2-excel-export to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-excel-export/.cache.json
+661 http 200 https://registry.npmjs.org/@syncfusion%2fej2-lists
+662 verbose headers { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+662 verbose headers   'content-type': 'application/json',
+662 verbose headers   'transfer-encoding': 'chunked',
+662 verbose headers   connection: 'keep-alive',
+662 verbose headers   'set-cookie': [ '__cfduid=da16e8d42371e1a18eca70a52cc93ef6d1583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+662 verbose headers   'cf-ray': '572534dcfcafd557-DEL',
+662 verbose headers   age: '1',
+662 verbose headers   'cache-control': 'public, max-age=300',
+662 verbose headers   etag: 'W/"10f22913b03ceb3acb752fb880aedec2"',
+662 verbose headers   'last-modified': 'Tue, 25 Feb 2020 14:18:14 GMT',
+662 verbose headers   vary: 'accept-encoding, accept',
+662 verbose headers   'cf-cache-status': 'HIT',
+662 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+662 verbose headers   server: 'cloudflare',
+662 verbose headers   'content-encoding': 'gzip' }
+663 silly get cb [ 200,
+663 silly get   { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+663 silly get     'content-type': 'application/json',
+663 silly get     'transfer-encoding': 'chunked',
+663 silly get     connection: 'keep-alive',
+663 silly get     'set-cookie': [ '__cfduid=da16e8d42371e1a18eca70a52cc93ef6d1583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+663 silly get     'cf-ray': '572534dcfcafd557-DEL',
+663 silly get     age: '1',
+663 silly get     'cache-control': 'public, max-age=300',
+663 silly get     etag: 'W/"10f22913b03ceb3acb752fb880aedec2"',
+663 silly get     'last-modified': 'Tue, 25 Feb 2020 14:18:14 GMT',
+663 silly get     vary: 'accept-encoding, accept',
+663 silly get     'cf-cache-status': 'HIT',
+663 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+663 silly get     server: 'cloudflare',
+663 silly get     'content-encoding': 'gzip' } ]
+664 verbose get saving @syncfusion/ej2-lists to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-lists/.cache.json
+665 verbose get https://registry.npmjs.org/@syncfusion%2fej2-navigations not expired, no request
+666 silly addNameRange number 2 { name: '@syncfusion/ej2-navigations',
+666 silly addNameRange   range: '>=17.4.55 <17.5.0',
+666 silly addNameRange   hasData: true }
+667 silly addNameRange versions [ '@syncfusion/ej2-navigations',
+667 silly addNameRange   [ '1.0.0',
+667 silly addNameRange     '1.0.3',
+667 silly addNameRange     '1.0.4',
+667 silly addNameRange     '1.0.5',
+667 silly addNameRange     '1.0.8',
+667 silly addNameRange     '1.0.10',
+667 silly addNameRange     '1.0.11',
+667 silly addNameRange     '1.0.14',
+667 silly addNameRange     '1.0.17',
+667 silly addNameRange     '1.0.18',
+667 silly addNameRange     '1.0.19',
+667 silly addNameRange     '1.0.22',
+667 silly addNameRange     '1.0.25',
+667 silly addNameRange     '15.4.17',
+667 silly addNameRange     '15.4.20',
+667 silly addNameRange     '15.4.21',
+667 silly addNameRange     '15.4.22',
+667 silly addNameRange     '15.4.23',
+667 silly addNameRange     '15.4.25',
+667 silly addNameRange     '15.4.26',
+667 silly addNameRange     '15.4.27',
+667 silly addNameRange     '15.4.30',
+667 silly addNameRange     '16.1.24',
+667 silly addNameRange     '16.1.26',
+667 silly addNameRange     '16.1.28',
+667 silly addNameRange     '16.1.32',
+667 silly addNameRange     '16.1.34',
+667 silly addNameRange     '16.1.35',
+667 silly addNameRange     '16.1.37',
+667 silly addNameRange     '16.1.38',
+667 silly addNameRange     '16.1.40',
+667 silly addNameRange     '16.1.42',
+667 silly addNameRange     '16.2.41',
+667 silly addNameRange     '16.2.44',
+667 silly addNameRange     '16.2.45',
+667 silly addNameRange     '16.2.46',
+667 silly addNameRange     '16.2.47',
+667 silly addNameRange     '16.2.48',
+667 silly addNameRange     '16.2.49',
+667 silly addNameRange     '16.2.50',
+667 silly addNameRange     '16.3.17',
+667 silly addNameRange     '16.3.21',
+667 silly addNameRange     '16.3.23',
+667 silly addNameRange     '16.3.24',
+667 silly addNameRange     '16.3.25',
+667 silly addNameRange     '16.3.27',
+667 silly addNameRange     '16.3.29',
+667 silly addNameRange     '16.3.30',
+667 silly addNameRange     '16.3.33',
+667 silly addNameRange     '16.3.34',
+667 silly addNameRange     '16.4.40-beta',
+667 silly addNameRange     '16.4.42',
+667 silly addNameRange     '16.4.44',
+667 silly addNameRange     '16.4.45',
+667 silly addNameRange     '16.4.47',
+667 silly addNameRange     '17.1.1-beta',
+667 silly addNameRange     '16.4.52',
+667 silly addNameRange     '16.4.53',
+667 silly addNameRange     '16.4.54',
+667 silly addNameRange     '17.1.32-beta',
+667 silly addNameRange     '17.1.38',
+667 silly addNameRange     '17.1.40',
+667 silly addNameRange     '17.1.41',
+667 silly addNameRange     '17.1.42',
+667 silly addNameRange     '17.1.43',
+667 silly addNameRange     '17.1.47',
+667 silly addNameRange     '17.1.48',
+667 silly addNameRange     '17.1.49',
+667 silly addNameRange     '17.2.28-beta',
+667 silly addNameRange     '17.2.34',
+667 silly addNameRange     '17.2.36',
+667 silly addNameRange     '17.2.39',
+667 silly addNameRange     '17.2.40',
+667 silly addNameRange     '17.2.41',
+667 silly addNameRange     '17.2.46',
+667 silly addNameRange     '17.2.47',
+667 silly addNameRange     '17.2.29-beta',
+667 silly addNameRange     '17.2.48-beta',
+667 silly addNameRange     '17.2.49',
+667 silly addNameRange     '17.3.9-beta',
+667 silly addNameRange     '17.3.14',
+667 silly addNameRange     '17.3.16',
+667 silly addNameRange     '17.3.17',
+667 silly addNameRange     '17.3.19',
+667 silly addNameRange     '17.3.21',
+667 silly addNameRange     '17.3.26',
+667 silly addNameRange     '17.3.27',
+667 silly addNameRange     '17.3.34',
+667 silly addNameRange     '17.4.39',
+667 silly addNameRange     '17.4.41',
+667 silly addNameRange     '17.4.42',
+667 silly addNameRange     '17.4.43',
+667 silly addNameRange     '17.4.44',
+667 silly addNameRange     '17.4.46',
+667 silly addNameRange     '17.4.47',
+667 silly addNameRange     '17.4.49',
+667 silly addNameRange     '17.4.50',
+667 silly addNameRange     '17.4.51',
+667 silly addNameRange     '17.4.55' ] ]
+668 silly addNamed @syncfusion/ej2-navigations@17.4.55
+669 verbose addNamed "17.4.55" is a plain semver version for @syncfusion/ej2-navigations
+670 silly resolveWithNewModule @syncfusion/ej2-popups@17.4.51 checking installable status
+671 silly cache add args [ '@syncfusion/ej2-popups@~17.4.51', null ]
+672 verbose cache add spec @syncfusion/ej2-popups@~17.4.51
+673 silly cache add parsed spec Result {
+673 silly cache add   raw: '@syncfusion/ej2-popups@~17.4.51',
+673 silly cache add   scope: '@syncfusion',
+673 silly cache add   name: '@syncfusion/ej2-popups',
+673 silly cache add   rawSpec: '~17.4.51',
+673 silly cache add   spec: '>=17.4.51 <17.5.0',
+673 silly cache add   type: 'range' }
+674 silly addNamed @syncfusion/ej2-popups@>=17.4.51 <17.5.0
+675 verbose addNamed ">=17.4.51 <17.5.0" is a valid semver range for @syncfusion/ej2-popups
+676 silly addNameRange { name: '@syncfusion/ej2-popups',
+676 silly addNameRange   range: '>=17.4.51 <17.5.0',
+676 silly addNameRange   hasData: false }
+677 silly mapToRegistry name @syncfusion/ej2-popups
+678 silly mapToRegistry scope (from package name) @syncfusion
+679 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+680 silly mapToRegistry using default registry
+681 silly mapToRegistry registry https://registry.npmjs.org/
+682 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-popups
+683 verbose addNameRange registry:https://registry.npmjs.org/@syncfusion%2fej2-popups not in flight; fetching
+684 verbose get https://registry.npmjs.org/@syncfusion%2fej2-inputs not expired, no request
+685 silly addNameRange number 2 { name: '@syncfusion/ej2-inputs',
+685 silly addNameRange   range: '>=17.4.55 <17.5.0',
+685 silly addNameRange   hasData: true }
+686 silly addNameRange versions [ '@syncfusion/ej2-inputs',
+686 silly addNameRange   [ '1.0.0',
+686 silly addNameRange     '1.0.3',
+686 silly addNameRange     '1.0.4',
+686 silly addNameRange     '1.0.5',
+686 silly addNameRange     '1.0.7',
+686 silly addNameRange     '1.0.8',
+686 silly addNameRange     '1.0.10',
+686 silly addNameRange     '1.0.11',
+686 silly addNameRange     '1.0.14',
+686 silly addNameRange     '1.0.16',
+686 silly addNameRange     '1.0.17',
+686 silly addNameRange     '1.0.18',
+686 silly addNameRange     '1.0.19',
+686 silly addNameRange     '1.0.21',
+686 silly addNameRange     '1.0.22',
+686 silly addNameRange     '15.4.17',
+686 silly addNameRange     '15.4.20',
+686 silly addNameRange     '15.4.21',
+686 silly addNameRange     '15.4.23',
+686 silly addNameRange     '15.4.24',
+686 silly addNameRange     '15.4.28',
+686 silly addNameRange     '15.4.29',
+686 silly addNameRange     '16.1.24',
+686 silly addNameRange     '16.1.26',
+686 silly addNameRange     '16.1.28',
+686 silly addNameRange     '16.1.29',
+686 silly addNameRange     '16.1.32',
+686 silly addNameRange     '16.1.34',
+686 silly addNameRange     '16.1.35',
+686 silly addNameRange     '16.1.37',
+686 silly addNameRange     '16.1.38',
+686 silly addNameRange     '16.1.40',
+686 silly addNameRange     '16.1.45',
+686 silly addNameRange     '16.1.48',
+686 silly addNameRange     '16.2.41',
+686 silly addNameRange     '16.2.43',
+686 silly addNameRange     '16.2.44',
+686 silly addNameRange     '16.2.45',
+686 silly addNameRange     '16.2.46',
+686 silly addNameRange     '16.2.47',
+686 silly addNameRange     '16.2.48',
+686 silly addNameRange     '16.2.49',
+686 silly addNameRange     '16.2.50',
+686 silly addNameRange     '16.2.51',
+686 silly addNameRange     '16.2.52',
+686 silly addNameRange     '16.2.53',
+686 silly addNameRange     '16.3.17',
+686 silly addNameRange     '16.3.21',
+686 silly addNameRange     '16.3.22',
+686 silly addNameRange     '16.3.24',
+686 silly addNameRange     '16.3.25',
+686 silly addNameRange     '16.3.27',
+686 silly addNameRange     '16.3.29',
+686 silly addNameRange     '16.3.30',
+686 silly addNameRange     '16.3.33',
+686 silly addNameRange     '16.3.34',
+686 silly addNameRange     '16.4.40-beta',
+686 silly addNameRange     '16.4.42',
+686 silly addNameRange     '16.4.44',
+686 silly addNameRange     '16.4.45',
+686 silly addNameRange     '16.4.46',
+686 silly addNameRange     '16.4.47',
+686 silly addNameRange     '16.4.48',
+686 silly addNameRange     '17.1.1-beta',
+686 silly addNameRange     '16.4.52',
+686 silly addNameRange     '16.4.53',
+686 silly addNameRange     '16.4.54',
+686 silly addNameRange     '16.4.55',
+686 silly addNameRange     '17.1.32-beta',
+686 silly addNameRange     '17.1.38',
+686 silly addNameRange     '17.1.40',
+686 silly addNameRange     '17.1.41',
+686 silly addNameRange     '17.1.42',
+686 silly addNameRange     '17.1.44',
+686 silly addNameRange     '17.1.47',
+686 silly addNameRange     '17.1.49',
+686 silly addNameRange     '17.1.50',
+686 silly addNameRange     '17.2.28-beta',
+686 silly addNameRange     '17.2.34',
+686 silly addNameRange     '17.2.35',
+686 silly addNameRange     '17.2.36',
+686 silly addNameRange     '17.2.39',
+686 silly addNameRange     '17.2.40',
+686 silly addNameRange     '17.2.41',
+686 silly addNameRange     '17.2.46',
+686 silly addNameRange     '17.2.47',
+686 silly addNameRange     '17.2.29-beta',
+686 silly addNameRange     '17.2.48-beta',
+686 silly addNameRange     '17.2.49',
+686 silly addNameRange     '17.2.51',
+686 silly addNameRange     '17.2.52',
+686 silly addNameRange     '17.3.9-beta',
+686 silly addNameRange     '17.3.14',
+686 silly addNameRange     '17.3.16',
+686 silly addNameRange     '17.3.17',
+686 silly addNameRange     '17.3.19',
+686 silly addNameRange     '17.3.21',
+686 silly addNameRange     '17.3.26',
+686 silly addNameRange     '17.3.27',
+686 silly addNameRange     '17.3.28',
+686 silly addNameRange     '17.3.29',
+686 silly addNameRange     '17.4.39',
+686 silly addNameRange     '17.4.41',
+686 silly addNameRange     '17.4.43',
+686 silly addNameRange     '17.4.46',
+686 silly addNameRange     '17.4.47',
+686 silly addNameRange     '17.4.51',
+686 silly addNameRange     '17.4.55' ] ]
+687 silly addNamed @syncfusion/ej2-inputs@17.4.55
+688 verbose addNamed "17.4.55" is a plain semver version for @syncfusion/ej2-inputs
+689 silly mapToRegistry name @syncfusion/ej2-navigations
+690 silly mapToRegistry scope (from package name) @syncfusion
+691 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+692 silly mapToRegistry using default registry
+693 silly mapToRegistry registry https://registry.npmjs.org/
+694 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-navigations
+695 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-navigations/-/ej2-navigations-17.4.55.tgz not in flight; adding
+696 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-navigations/-/ej2-navigations-17.4.55.tgz',
+696 verbose addRemoteTarball   'ae8c7a66a010fe7c7c18bcf16e09201ee31774d4' ]
+697 silly mapToRegistry name @syncfusion/ej2-inputs
+698 silly mapToRegistry scope (from package name) @syncfusion
+699 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+700 silly mapToRegistry using default registry
+701 silly mapToRegistry registry https://registry.npmjs.org/
+702 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-inputs
+703 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-inputs/-/ej2-inputs-17.4.55.tgz not in flight; adding
+704 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-inputs/-/ej2-inputs-17.4.55.tgz',
+704 verbose addRemoteTarball   '75eb7e71376963ff5a889aaa121ebe88b8b978e3' ]
+705 verbose get https://registry.npmjs.org/@syncfusion%2fej2-file-utils not expired, no request
+706 silly addNameRange number 2 { name: '@syncfusion/ej2-file-utils',
+706 silly addNameRange   range: '>=17.4.51 <17.5.0',
+706 silly addNameRange   hasData: true }
+707 silly addNameRange versions [ '@syncfusion/ej2-file-utils',
+707 silly addNameRange   [ '1.0.21',
+707 silly addNameRange     '15.4.17',
+707 silly addNameRange     '15.4.20',
+707 silly addNameRange     '15.4.22',
+707 silly addNameRange     '15.4.23',
+707 silly addNameRange     '15.4.26',
+707 silly addNameRange     '16.1.24',
+707 silly addNameRange     '16.1.26',
+707 silly addNameRange     '16.1.28',
+707 silly addNameRange     '16.1.32',
+707 silly addNameRange     '16.1.37',
+707 silly addNameRange     '16.2.41',
+707 silly addNameRange     '16.2.45',
+707 silly addNameRange     '16.2.46',
+707 silly addNameRange     '16.2.49',
+707 silly addNameRange     '16.2.50',
+707 silly addNameRange     '16.3.17',
+707 silly addNameRange     '16.3.21',
+707 silly addNameRange     '16.3.24',
+707 silly addNameRange     '16.3.29',
+707 silly addNameRange     '16.3.30',
+707 silly addNameRange     '16.3.33',
+707 silly addNameRange     '16.3.34',
+707 silly addNameRange     '16.4.40-beta',
+707 silly addNameRange     '16.4.42',
+707 silly addNameRange     '16.4.47',
+707 silly addNameRange     '17.1.1-beta',
+707 silly addNameRange     '16.4.52',
+707 silly addNameRange     '17.1.32-beta',
+707 silly addNameRange     '17.1.38',
+707 silly addNameRange     '17.1.42',
+707 silly addNameRange     '17.1.47',
+707 silly addNameRange     '17.2.28-beta',
+707 silly addNameRange     '17.2.34',
+707 silly addNameRange     '17.2.46',
+707 silly addNameRange     '17.2.47',
+707 silly addNameRange     '17.2.29-beta',
+707 silly addNameRange     '17.2.48-beta',
+707 silly addNameRange     '17.3.9-beta',
+707 silly addNameRange     '17.3.14',
+707 silly addNameRange     '17.3.19',
+707 silly addNameRange     '17.3.26',
+707 silly addNameRange     '17.3.27',
+707 silly addNameRange     '17.4.39',
+707 silly addNameRange     '17.4.43',
+707 silly addNameRange     '17.4.46',
+707 silly addNameRange     '17.4.47',
+707 silly addNameRange     '17.4.51' ] ]
+708 silly addNamed @syncfusion/ej2-file-utils@17.4.51
+709 verbose addNamed "17.4.51" is a plain semver version for @syncfusion/ej2-file-utils
+710 silly mapToRegistry name @syncfusion/ej2-file-utils
+711 silly mapToRegistry scope (from package name) @syncfusion
+712 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+713 silly mapToRegistry using default registry
+714 silly mapToRegistry registry https://registry.npmjs.org/
+715 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-file-utils
+716 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-file-utils/-/ej2-file-utils-17.4.51.tgz not in flight; adding
+717 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-file-utils/-/ej2-file-utils-17.4.51.tgz',
+717 verbose addRemoteTarball   'ce0840929f6b9476f80877ec13c852559e6b5421' ]
+718 silly resolveWithNewModule @syncfusion/ej2-compression@17.4.51 checking installable status
+719 silly cache add args [ '@syncfusion/ej2-compression@~17.4.51', null ]
+720 verbose cache add spec @syncfusion/ej2-compression@~17.4.51
+721 silly cache add parsed spec Result {
+721 silly cache add   raw: '@syncfusion/ej2-compression@~17.4.51',
+721 silly cache add   scope: '@syncfusion',
+721 silly cache add   name: '@syncfusion/ej2-compression',
+721 silly cache add   rawSpec: '~17.4.51',
+721 silly cache add   spec: '>=17.4.51 <17.5.0',
+721 silly cache add   type: 'range' }
+722 silly addNamed @syncfusion/ej2-compression@>=17.4.51 <17.5.0
+723 verbose addNamed ">=17.4.51 <17.5.0" is a valid semver range for @syncfusion/ej2-compression
+724 silly addNameRange { name: '@syncfusion/ej2-compression',
+724 silly addNameRange   range: '>=17.4.51 <17.5.0',
+724 silly addNameRange   hasData: false }
+725 silly mapToRegistry name @syncfusion/ej2-compression
+726 silly mapToRegistry scope (from package name) @syncfusion
+727 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+728 silly mapToRegistry using default registry
+729 silly mapToRegistry registry https://registry.npmjs.org/
+730 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-compression
+731 verbose addNameRange registry:https://registry.npmjs.org/@syncfusion%2fej2-compression not in flight; fetching
+732 info retry fetch attempt 1 at 5:46:27 PM
+733 info attempt registry request try #1 at 5:46:27 PM
+734 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-navigations/-/ej2-navigations-17.4.55.tgz
+735 info retry fetch attempt 1 at 5:46:27 PM
+736 info attempt registry request try #1 at 5:46:27 PM
+737 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-inputs/-/ej2-inputs-17.4.55.tgz
+738 verbose get https://registry.npmjs.org/@syncfusion%2fej2-popups not expired, no request
+739 silly addNameRange number 2 { name: '@syncfusion/ej2-popups',
+739 silly addNameRange   range: '>=17.4.51 <17.5.0',
+739 silly addNameRange   hasData: true }
+740 silly addNameRange versions [ '@syncfusion/ej2-popups',
+740 silly addNameRange   [ '1.0.0',
+740 silly addNameRange     '1.0.3',
+740 silly addNameRange     '1.0.4',
+740 silly addNameRange     '1.0.5',
+740 silly addNameRange     '1.0.8',
+740 silly addNameRange     '1.0.10',
+740 silly addNameRange     '1.0.11',
+740 silly addNameRange     '1.0.14',
+740 silly addNameRange     '1.0.16',
+740 silly addNameRange     '1.0.17',
+740 silly addNameRange     '1.0.22',
+740 silly addNameRange     '15.4.17',
+740 silly addNameRange     '15.4.20',
+740 silly addNameRange     '15.4.21',
+740 silly addNameRange     '15.4.22',
+740 silly addNameRange     '15.4.23',
+740 silly addNameRange     '15.4.27',
+740 silly addNameRange     '16.1.24',
+740 silly addNameRange     '16.1.26',
+740 silly addNameRange     '16.1.28',
+740 silly addNameRange     '16.1.29',
+740 silly addNameRange     '16.1.30',
+740 silly addNameRange     '16.1.32',
+740 silly addNameRange     '16.1.37',
+740 silly addNameRange     '16.1.42',
+740 silly addNameRange     '16.1.47',
+740 silly addNameRange     '16.2.41',
+740 silly addNameRange     '16.2.45',
+740 silly addNameRange     '16.2.46',
+740 silly addNameRange     '16.2.47',
+740 silly addNameRange     '16.2.49',
+740 silly addNameRange     '16.2.50',
+740 silly addNameRange     '16.2.51',
+740 silly addNameRange     '16.2.52',
+740 silly addNameRange     '16.3.17',
+740 silly addNameRange     '16.3.21',
+740 silly addNameRange     '16.3.24',
+740 silly addNameRange     '16.3.25',
+740 silly addNameRange     '16.3.29',
+740 silly addNameRange     '16.3.30',
+740 silly addNameRange     '16.3.32',
+740 silly addNameRange     '16.3.33',
+740 silly addNameRange     '16.3.34',
+740 silly addNameRange     '16.4.40-beta',
+740 silly addNameRange     '16.4.42',
+740 silly addNameRange     '16.4.44',
+740 silly addNameRange     '16.4.45',
+740 silly addNameRange     '16.4.47',
+740 silly addNameRange     '17.1.1-beta',
+740 silly addNameRange     '16.4.52',
+740 silly addNameRange     '16.4.53',
+740 silly addNameRange     '16.4.54',
+740 silly addNameRange     '17.1.32-beta',
+740 silly addNameRange     '17.1.38',
+740 silly addNameRange     '17.1.40',
+740 silly addNameRange     '17.1.42',
+740 silly addNameRange     '17.1.47',
+740 silly addNameRange     '17.1.50',
+740 silly addNameRange     '17.2.28-beta',
+740 silly addNameRange     '17.2.34',
+740 silly addNameRange     '17.2.35',
+740 silly addNameRange     '17.2.46',
+740 silly addNameRange     '17.2.47',
+740 silly addNameRange     '17.2.29-beta',
+740 silly addNameRange     '17.2.48-beta',
+740 silly addNameRange     '17.3.9-beta',
+740 silly addNameRange     '17.3.14',
+740 silly addNameRange     '17.3.15',
+740 silly addNameRange     '17.3.16',
+740 silly addNameRange     '17.3.19',
+740 silly addNameRange     '17.3.26',
+740 silly addNameRange     '17.3.27',
+740 silly addNameRange     '17.3.29',
+740 silly addNameRange     '17.3.34',
+740 silly addNameRange     '17.4.39',
+740 silly addNameRange     '17.4.43',
+740 silly addNameRange     '17.4.46',
+740 silly addNameRange     '17.4.47',
+740 silly addNameRange     '17.4.48',
+740 silly addNameRange     '17.4.49',
+740 silly addNameRange     '17.4.51' ] ]
+741 silly addNamed @syncfusion/ej2-popups@17.4.51
+742 verbose addNamed "17.4.51" is a plain semver version for @syncfusion/ej2-popups
+743 info retry fetch attempt 1 at 5:46:27 PM
+744 info attempt registry request try #1 at 5:46:27 PM
+745 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-file-utils/-/ej2-file-utils-17.4.51.tgz
+746 silly mapToRegistry name @syncfusion/ej2-popups
+747 silly mapToRegistry scope (from package name) @syncfusion
+748 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+749 silly mapToRegistry using default registry
+750 silly mapToRegistry registry https://registry.npmjs.org/
+751 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-popups
+752 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-popups/-/ej2-popups-17.4.51.tgz not in flight; adding
+753 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-popups/-/ej2-popups-17.4.51.tgz',
+753 verbose addRemoteTarball   '5e8548d9b6b5d0c1446b40ad59ce76b19ab7e76c' ]
+754 verbose get https://registry.npmjs.org/@syncfusion%2fej2-compression not expired, no request
+755 silly addNameRange number 2 { name: '@syncfusion/ej2-compression',
+755 silly addNameRange   range: '>=17.4.51 <17.5.0',
+755 silly addNameRange   hasData: true }
+756 silly addNameRange versions [ '@syncfusion/ej2-compression',
+756 silly addNameRange   [ '1.0.21',
+756 silly addNameRange     '15.4.17',
+756 silly addNameRange     '15.4.20',
+756 silly addNameRange     '15.4.22',
+756 silly addNameRange     '15.4.23',
+756 silly addNameRange     '15.4.25',
+756 silly addNameRange     '15.4.26',
+756 silly addNameRange     '16.1.24',
+756 silly addNameRange     '16.1.26',
+756 silly addNameRange     '16.1.28',
+756 silly addNameRange     '16.1.32',
+756 silly addNameRange     '16.1.37',
+756 silly addNameRange     '16.2.41',
+756 silly addNameRange     '16.2.45',
+756 silly addNameRange     '16.2.46',
+756 silly addNameRange     '16.2.49',
+756 silly addNameRange     '16.2.50',
+756 silly addNameRange     '16.3.17',
+756 silly addNameRange     '16.3.21',
+756 silly addNameRange     '16.3.24',
+756 silly addNameRange     '16.3.29',
+756 silly addNameRange     '16.3.30',
+756 silly addNameRange     '16.3.32',
+756 silly addNameRange     '16.3.33',
+756 silly addNameRange     '16.3.34',
+756 silly addNameRange     '16.4.40-beta',
+756 silly addNameRange     '16.4.42',
+756 silly addNameRange     '16.4.47',
+756 silly addNameRange     '17.1.1-beta',
+756 silly addNameRange     '16.4.52',
+756 silly addNameRange     '17.1.32-beta',
+756 silly addNameRange     '17.1.38',
+756 silly addNameRange     '17.1.42',
+756 silly addNameRange     '17.1.47',
+756 silly addNameRange     '17.2.28-beta',
+756 silly addNameRange     '17.2.34',
+756 silly addNameRange     '17.2.46',
+756 silly addNameRange     '17.2.47',
+756 silly addNameRange     '17.2.29-beta',
+756 silly addNameRange     '17.2.48-beta',
+756 silly addNameRange     '17.3.9-beta',
+756 silly addNameRange     '17.3.14',
+756 silly addNameRange     '17.3.19',
+756 silly addNameRange     '17.3.26',
+756 silly addNameRange     '17.3.27',
+756 silly addNameRange     '17.4.39',
+756 silly addNameRange     '17.4.43',
+756 silly addNameRange     '17.4.46',
+756 silly addNameRange     '17.4.47',
+756 silly addNameRange     '17.4.51' ] ]
+757 silly addNamed @syncfusion/ej2-compression@17.4.51
+758 verbose addNamed "17.4.51" is a plain semver version for @syncfusion/ej2-compression
+759 http 200 https://registry.npmjs.org/@syncfusion%2fej2-data
+760 verbose headers { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+760 verbose headers   'content-type': 'application/json',
+760 verbose headers   'transfer-encoding': 'chunked',
+760 verbose headers   connection: 'keep-alive',
+760 verbose headers   'set-cookie': [ '__cfduid=daee2241ecc30458056acd5690b93e5eb1583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+760 verbose headers   'cf-ray': '572534dd0dae2ed9-DEL',
+760 verbose headers   age: '1',
+760 verbose headers   'cache-control': 'public, max-age=300',
+760 verbose headers   etag: 'W/"82050ca19de6676b0a161b358ae9471c"',
+760 verbose headers   'last-modified': 'Tue, 25 Feb 2020 14:16:59 GMT',
+760 verbose headers   vary: 'accept-encoding, accept',
+760 verbose headers   'cf-cache-status': 'HIT',
+760 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+760 verbose headers   server: 'cloudflare',
+760 verbose headers   'content-encoding': 'gzip' }
+761 silly get cb [ 200,
+761 silly get   { date: 'Wed, 11 Mar 2020 12:16:27 GMT',
+761 silly get     'content-type': 'application/json',
+761 silly get     'transfer-encoding': 'chunked',
+761 silly get     connection: 'keep-alive',
+761 silly get     'set-cookie': [ '__cfduid=daee2241ecc30458056acd5690b93e5eb1583928985; expires=Fri, 10-Apr-20 12:16:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+761 silly get     'cf-ray': '572534dd0dae2ed9-DEL',
+761 silly get     age: '1',
+761 silly get     'cache-control': 'public, max-age=300',
+761 silly get     etag: 'W/"82050ca19de6676b0a161b358ae9471c"',
+761 silly get     'last-modified': 'Tue, 25 Feb 2020 14:16:59 GMT',
+761 silly get     vary: 'accept-encoding, accept',
+761 silly get     'cf-cache-status': 'HIT',
+761 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+761 silly get     server: 'cloudflare',
+761 silly get     'content-encoding': 'gzip' } ]
+762 verbose get saving @syncfusion/ej2-data to /home/ashu/.npm/registry.npmjs.org/_40syncfusion_252fej2-data/.cache.json
+763 silly resolveWithNewModule @syncfusion/ej2-excel-export@17.4.51 checking installable status
+764 silly cache add args [ '@syncfusion/ej2-excel-export@~17.4.51', null ]
+765 verbose cache add spec @syncfusion/ej2-excel-export@~17.4.51
+766 silly cache add parsed spec Result {
+766 silly cache add   raw: '@syncfusion/ej2-excel-export@~17.4.51',
+766 silly cache add   scope: '@syncfusion',
+766 silly cache add   name: '@syncfusion/ej2-excel-export',
+766 silly cache add   rawSpec: '~17.4.51',
+766 silly cache add   spec: '>=17.4.51 <17.5.0',
+766 silly cache add   type: 'range' }
+767 silly addNamed @syncfusion/ej2-excel-export@>=17.4.51 <17.5.0
+768 verbose addNamed ">=17.4.51 <17.5.0" is a valid semver range for @syncfusion/ej2-excel-export
+769 silly addNameRange { name: '@syncfusion/ej2-excel-export',
+769 silly addNameRange   range: '>=17.4.51 <17.5.0',
+769 silly addNameRange   hasData: false }
+770 silly mapToRegistry name @syncfusion/ej2-excel-export
+771 silly mapToRegistry scope (from package name) @syncfusion
+772 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+773 silly mapToRegistry using default registry
+774 silly mapToRegistry registry https://registry.npmjs.org/
+775 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-excel-export
+776 verbose addNameRange registry:https://registry.npmjs.org/@syncfusion%2fej2-excel-export not in flight; fetching
+777 info retry fetch attempt 1 at 5:46:27 PM
+778 info attempt registry request try #1 at 5:46:27 PM
+779 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-popups/-/ej2-popups-17.4.51.tgz
+780 silly mapToRegistry name @syncfusion/ej2-compression
+781 silly mapToRegistry scope (from package name) @syncfusion
+782 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+783 silly mapToRegistry using default registry
+784 silly mapToRegistry registry https://registry.npmjs.org/
+785 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-compression
+786 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-compression/-/ej2-compression-17.4.51.tgz not in flight; adding
+787 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-compression/-/ej2-compression-17.4.51.tgz',
+787 verbose addRemoteTarball   'b07885a5b9862f5af978a311c9c22fee656e55b2' ]
+788 silly resolveWithNewModule @syncfusion/ej2-lists@17.4.51 checking installable status
+789 silly cache add args [ '@syncfusion/ej2-lists@~17.4.51', null ]
+790 verbose cache add spec @syncfusion/ej2-lists@~17.4.51
+791 silly cache add parsed spec Result {
+791 silly cache add   raw: '@syncfusion/ej2-lists@~17.4.51',
+791 silly cache add   scope: '@syncfusion',
+791 silly cache add   name: '@syncfusion/ej2-lists',
+791 silly cache add   rawSpec: '~17.4.51',
+791 silly cache add   spec: '>=17.4.51 <17.5.0',
+791 silly cache add   type: 'range' }
+792 silly addNamed @syncfusion/ej2-lists@>=17.4.51 <17.5.0
+793 verbose addNamed ">=17.4.51 <17.5.0" is a valid semver range for @syncfusion/ej2-lists
+794 silly addNameRange { name: '@syncfusion/ej2-lists',
+794 silly addNameRange   range: '>=17.4.51 <17.5.0',
+794 silly addNameRange   hasData: false }
+795 silly mapToRegistry name @syncfusion/ej2-lists
+796 silly mapToRegistry scope (from package name) @syncfusion
+797 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+798 silly mapToRegistry using default registry
+799 silly mapToRegistry registry https://registry.npmjs.org/
+800 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-lists
+801 verbose addNameRange registry:https://registry.npmjs.org/@syncfusion%2fej2-lists not in flight; fetching
+802 info retry fetch attempt 1 at 5:46:27 PM
+803 info attempt registry request try #1 at 5:46:27 PM
+804 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-compression/-/ej2-compression-17.4.51.tgz
+805 verbose get https://registry.npmjs.org/@syncfusion%2fej2-excel-export not expired, no request
+806 silly addNameRange number 2 { name: '@syncfusion/ej2-excel-export',
+806 silly addNameRange   range: '>=17.4.51 <17.5.0',
+806 silly addNameRange   hasData: true }
+807 silly addNameRange versions [ '@syncfusion/ej2-excel-export',
+807 silly addNameRange   [ '1.0.21',
+807 silly addNameRange     '1.0.22',
+807 silly addNameRange     '1.0.23',
+807 silly addNameRange     '1.0.24',
+807 silly addNameRange     '15.4.17',
+807 silly addNameRange     '15.4.20',
+807 silly addNameRange     '15.4.22',
+807 silly addNameRange     '15.4.23',
+807 silly addNameRange     '15.4.25',
+807 silly addNameRange     '15.4.26',
+807 silly addNameRange     '15.4.30',
+807 silly addNameRange     '16.1.24',
+807 silly addNameRange     '16.1.26',
+807 silly addNameRange     '16.1.28',
+807 silly addNameRange     '16.1.32',
+807 silly addNameRange     '16.1.37',
+807 silly addNameRange     '16.2.41',
+807 silly addNameRange     '16.2.45',
+807 silly addNameRange     '16.2.46',
+807 silly addNameRange     '16.2.49',
+807 silly addNameRange     '16.2.50',
+807 silly addNameRange     '16.3.17',
+807 silly addNameRange     '16.3.21',
+807 silly addNameRange     '16.3.24',
+807 silly addNameRange     '16.3.29',
+807 silly addNameRange     '16.3.30',
+807 silly addNameRange     '16.3.33',
+807 silly addNameRange     '16.3.34',
+807 silly addNameRange     '16.4.40-beta',
+807 silly addNameRange     '16.4.42',
+807 silly addNameRange     '16.4.47',
+807 silly addNameRange     '17.1.1-beta',
+807 silly addNameRange     '16.4.52',
+807 silly addNameRange     '17.1.32-beta',
+807 silly addNameRange     '17.1.38',
+807 silly addNameRange     '17.1.42',
+807 silly addNameRange     '17.1.47',
+807 silly addNameRange     '17.1.50',
+807 silly addNameRange     '17.2.28-beta',
+807 silly addNameRange     '17.2.34',
+807 silly addNameRange     '17.2.46',
+807 silly addNameRange     '17.2.47',
+807 silly addNameRange     '17.2.29-beta',
+807 silly addNameRange     '17.2.48-beta',
+807 silly addNameRange     '17.3.9-beta',
+807 silly addNameRange     '17.3.14',
+807 silly addNameRange     '17.3.17',
+807 silly addNameRange     '17.3.19',
+807 silly addNameRange     '17.3.26',
+807 silly addNameRange     '17.3.27',
+807 silly addNameRange     '17.4.39',
+807 silly addNameRange     '17.4.41',
+807 silly addNameRange     '17.4.43',
+807 silly addNameRange     '17.4.46',
+807 silly addNameRange     '17.4.47',
+807 silly addNameRange     '17.4.51' ] ]
+808 silly addNamed @syncfusion/ej2-excel-export@17.4.51
+809 verbose addNamed "17.4.51" is a plain semver version for @syncfusion/ej2-excel-export
+810 silly mapToRegistry name @syncfusion/ej2-excel-export
+811 silly mapToRegistry scope (from package name) @syncfusion
+812 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+813 silly mapToRegistry using default registry
+814 silly mapToRegistry registry https://registry.npmjs.org/
+815 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-excel-export
+816 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-excel-export/-/ej2-excel-export-17.4.51.tgz not in flight; adding
+817 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-excel-export/-/ej2-excel-export-17.4.51.tgz',
+817 verbose addRemoteTarball   'f6c9ae1d92dc13126f28ba61126d819dd8591faf' ]
+818 verbose get https://registry.npmjs.org/@syncfusion%2fej2-lists not expired, no request
+819 silly addNameRange number 2 { name: '@syncfusion/ej2-lists',
+819 silly addNameRange   range: '>=17.4.51 <17.5.0',
+819 silly addNameRange   hasData: true }
+820 silly addNameRange versions [ '@syncfusion/ej2-lists',
+820 silly addNameRange   [ '1.0.0',
+820 silly addNameRange     '1.0.3',
+820 silly addNameRange     '1.0.4',
+820 silly addNameRange     '1.0.5',
+820 silly addNameRange     '1.0.7',
+820 silly addNameRange     '1.0.8',
+820 silly addNameRange     '1.0.10',
+820 silly addNameRange     '1.0.11',
+820 silly addNameRange     '1.0.14',
+820 silly addNameRange     '1.0.18',
+820 silly addNameRange     '1.0.19',
+820 silly addNameRange     '15.4.17',
+820 silly addNameRange     '15.4.20',
+820 silly addNameRange     '15.4.22',
+820 silly addNameRange     '15.4.23',
+820 silly addNameRange     '15.4.24',
+820 silly addNameRange     '15.4.26',
+820 silly addNameRange     '16.1.24',
+820 silly addNameRange     '16.1.26',
+820 silly addNameRange     '16.1.28',
+820 silly addNameRange     '16.1.32',
+820 silly addNameRange     '16.1.34',
+820 silly addNameRange     '16.1.35',
+820 silly addNameRange     '16.1.37',
+820 silly addNameRange     '16.1.38',
+820 silly addNameRange     '16.1.42',
+820 silly addNameRange     '16.2.41',
+820 silly addNameRange     '16.2.45',
+820 silly addNameRange     '16.2.46',
+820 silly addNameRange     '16.2.47',
+820 silly addNameRange     '16.2.49',
+820 silly addNameRange     '16.2.50',
+820 silly addNameRange     '16.3.17',
+820 silly addNameRange     '16.3.21',
+820 silly addNameRange     '16.3.22',
+820 silly addNameRange     '16.3.23',
+820 silly addNameRange     '16.3.24',
+820 silly addNameRange     '16.3.25',
+820 silly addNameRange     '16.3.27',
+820 silly addNameRange     '16.3.29',
+820 silly addNameRange     '16.3.30',
+820 silly addNameRange     '16.3.33',
+820 silly addNameRange     '16.3.34',
+820 silly addNameRange     '16.4.40-beta',
+820 silly addNameRange     '16.4.42',
+820 silly addNameRange     '16.4.44',
+820 silly addNameRange     '16.4.47',
+820 silly addNameRange     '17.1.1-beta',
+820 silly addNameRange     '16.4.52',
+820 silly addNameRange     '17.1.32-beta',
+820 silly addNameRange     '17.1.38',
+820 silly addNameRange     '17.1.40',
+820 silly addNameRange     '17.1.42',
+820 silly addNameRange     '17.1.43',
+820 silly addNameRange     '17.1.47',
+820 silly addNameRange     '17.2.28-beta',
+820 silly addNameRange     '17.2.34',
+820 silly addNameRange     '17.2.46',
+820 silly addNameRange     '17.2.47',
+820 silly addNameRange     '17.2.29-beta',
+820 silly addNameRange     '17.2.48-beta',
+820 silly addNameRange     '17.3.9-beta',
+820 silly addNameRange     '17.3.14',
+820 silly addNameRange     '17.3.16',
+820 silly addNameRange     '17.3.19',
+820 silly addNameRange     '17.3.21',
+820 silly addNameRange     '17.3.26',
+820 silly addNameRange     '17.3.27',
+820 silly addNameRange     '17.4.39',
+820 silly addNameRange     '17.4.40',
+820 silly addNameRange     '17.4.41',
+820 silly addNameRange     '17.4.43',
+820 silly addNameRange     '17.4.46',
+820 silly addNameRange     '17.4.47',
+820 silly addNameRange     '17.4.51' ] ]
+821 silly addNamed @syncfusion/ej2-lists@17.4.51
+822 verbose addNamed "17.4.51" is a plain semver version for @syncfusion/ej2-lists
+823 silly mapToRegistry name @syncfusion/ej2-lists
+824 silly mapToRegistry scope (from package name) @syncfusion
+825 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+826 silly mapToRegistry using default registry
+827 silly mapToRegistry registry https://registry.npmjs.org/
+828 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-lists
+829 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-lists/-/ej2-lists-17.4.51.tgz not in flight; adding
+830 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-lists/-/ej2-lists-17.4.51.tgz',
+830 verbose addRemoteTarball   '7b6d9be845352754206cae052db5300e99a33850' ]
+831 info retry fetch attempt 1 at 5:46:27 PM
+832 info attempt registry request try #1 at 5:46:27 PM
+833 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-excel-export/-/ej2-excel-export-17.4.51.tgz
+834 info retry fetch attempt 1 at 5:46:27 PM
+835 info attempt registry request try #1 at 5:46:27 PM
+836 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-lists/-/ej2-lists-17.4.51.tgz
+837 silly resolveWithNewModule @syncfusion/ej2-data@17.4.51 checking installable status
+838 silly cache add args [ '@syncfusion/ej2-data@~17.4.51', null ]
+839 verbose cache add spec @syncfusion/ej2-data@~17.4.51
+840 silly cache add parsed spec Result {
+840 silly cache add   raw: '@syncfusion/ej2-data@~17.4.51',
+840 silly cache add   scope: '@syncfusion',
+840 silly cache add   name: '@syncfusion/ej2-data',
+840 silly cache add   rawSpec: '~17.4.51',
+840 silly cache add   spec: '>=17.4.51 <17.5.0',
+840 silly cache add   type: 'range' }
+841 silly addNamed @syncfusion/ej2-data@>=17.4.51 <17.5.0
+842 verbose addNamed ">=17.4.51 <17.5.0" is a valid semver range for @syncfusion/ej2-data
+843 silly addNameRange { name: '@syncfusion/ej2-data',
+843 silly addNameRange   range: '>=17.4.51 <17.5.0',
+843 silly addNameRange   hasData: false }
+844 silly mapToRegistry name @syncfusion/ej2-data
+845 silly mapToRegistry scope (from package name) @syncfusion
+846 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+847 silly mapToRegistry using default registry
+848 silly mapToRegistry registry https://registry.npmjs.org/
+849 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-data
+850 verbose addNameRange registry:https://registry.npmjs.org/@syncfusion%2fej2-data not in flight; fetching
+851 verbose get https://registry.npmjs.org/@syncfusion%2fej2-data not expired, no request
+852 silly addNameRange number 2 { name: '@syncfusion/ej2-data',
+852 silly addNameRange   range: '>=17.4.51 <17.5.0',
+852 silly addNameRange   hasData: true }
+853 silly addNameRange versions [ '@syncfusion/ej2-data',
+853 silly addNameRange   [ '1.0.0',
+853 silly addNameRange     '1.0.3',
+853 silly addNameRange     '1.0.4',
+853 silly addNameRange     '1.0.5',
+853 silly addNameRange     '1.0.7',
+853 silly addNameRange     '1.0.8',
+853 silly addNameRange     '1.0.10',
+853 silly addNameRange     '1.0.11',
+853 silly addNameRange     '1.0.14',
+853 silly addNameRange     '1.0.19',
+853 silly addNameRange     '15.4.17',
+853 silly addNameRange     '15.4.20',
+853 silly addNameRange     '15.4.22',
+853 silly addNameRange     '15.4.23',
+853 silly addNameRange     '15.4.30',
+853 silly addNameRange     '16.1.24',
+853 silly addNameRange     '16.1.26',
+853 silly addNameRange     '16.1.28',
+853 silly addNameRange     '16.1.32',
+853 silly addNameRange     '16.1.37',
+853 silly addNameRange     '16.1.39',
+853 silly addNameRange     '16.1.42',
+853 silly addNameRange     '16.2.41',
+853 silly addNameRange     '16.2.42',
+853 silly addNameRange     '16.2.43',
+853 silly addNameRange     '16.2.45',
+853 silly addNameRange     '16.2.46',
+853 silly addNameRange     '16.2.47',
+853 silly addNameRange     '16.2.48',
+853 silly addNameRange     '16.2.49',
+853 silly addNameRange     '16.2.50',
+853 silly addNameRange     '16.2.51',
+853 silly addNameRange     '16.2.52',
+853 silly addNameRange     '16.3.17',
+853 silly addNameRange     '16.3.21',
+853 silly addNameRange     '16.3.22',
+853 silly addNameRange     '16.3.24',
+853 silly addNameRange     '16.3.25',
+853 silly addNameRange     '16.3.27',
+853 silly addNameRange     '16.3.29',
+853 silly addNameRange     '16.3.30',
+853 silly addNameRange     '16.3.33',
+853 silly addNameRange     '16.3.34',
+853 silly addNameRange     '16.4.40-beta',
+853 silly addNameRange     '16.4.42',
+853 silly addNameRange     '16.4.45',
+853 silly addNameRange     '16.4.47',
+853 silly addNameRange     '16.4.48',
+853 silly addNameRange     '17.1.1-beta',
+853 silly addNameRange     '16.4.52',
+853 silly addNameRange     '17.1.32-beta',
+853 silly addNameRange     '17.1.38',
+853 silly addNameRange     '17.1.41',
+853 silly addNameRange     '17.1.42',
+853 silly addNameRange     '17.1.47',
+853 silly addNameRange     '17.1.50',
+853 silly addNameRange     '17.1.51',
+853 silly addNameRange     '17.2.28-beta',
+853 silly addNameRange     '17.2.34',
+853 silly addNameRange     '17.2.35',
+853 silly addNameRange     '17.2.36',
+853 silly addNameRange     '17.2.39',
+853 silly addNameRange     '17.2.46',
+853 silly addNameRange     '17.2.47',
+853 silly addNameRange     '17.2.29-beta',
+853 silly addNameRange     '17.2.48-beta',
+853 silly addNameRange     '17.3.9-beta',
+853 silly addNameRange     '17.3.14',
+853 silly addNameRange     '17.3.17',
+853 silly addNameRange     '17.3.19',
+853 silly addNameRange     '17.3.26',
+853 silly addNameRange     '17.3.27',
+853 silly addNameRange     '17.3.30',
+853 silly addNameRange     '17.4.39',
+853 silly addNameRange     '17.4.41',
+853 silly addNameRange     '17.4.43',
+853 silly addNameRange     '17.4.46',
+853 silly addNameRange     '17.4.47',
+853 silly addNameRange     '17.4.51' ] ]
+854 silly addNamed @syncfusion/ej2-data@17.4.51
+855 verbose addNamed "17.4.51" is a plain semver version for @syncfusion/ej2-data
+856 silly mapToRegistry name @syncfusion/ej2-data
+857 silly mapToRegistry scope (from package name) @syncfusion
+858 verbose mapToRegistry no registry URL found in name for scope @syncfusion
+859 silly mapToRegistry using default registry
+860 silly mapToRegistry registry https://registry.npmjs.org/
+861 silly mapToRegistry uri https://registry.npmjs.org/@syncfusion%2fej2-data
+862 verbose addRemoteTarball https://registry.npmjs.org/@syncfusion/ej2-data/-/ej2-data-17.4.51.tgz not in flight; adding
+863 verbose addRemoteTarball [ 'https://registry.npmjs.org/@syncfusion/ej2-data/-/ej2-data-17.4.51.tgz',
+863 verbose addRemoteTarball   '9f03cdce581ddf1d1d40ac42c8b08055be142051' ]
+864 info retry fetch attempt 1 at 5:46:27 PM
+865 info attempt registry request try #1 at 5:46:27 PM
+866 http fetch GET https://registry.npmjs.org/@syncfusion/ej2-data/-/ej2-data-17.4.51.tgz
+867 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-splitbuttons/-/ej2-splitbuttons-17.4.55.tgz
+868 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-buttons/-/ej2-buttons-17.4.51.tgz
+869 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-pdf-export/-/ej2-pdf-export-17.4.51.tgz
+870 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-file-utils/-/ej2-file-utils-17.4.51.tgz
+871 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-navigations/-/ej2-navigations-17.4.55.tgz
+872 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-data/-/ej2-data-17.4.51.tgz
+873 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-compression/-/ej2-compression-17.4.51.tgz
+874 silly fetchAndShaCheck shasum ce0840929f6b9476f80877ec13c852559e6b5421
+875 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-file-utils/-/ej2-file-utils-17.4.51.tgz not in flight; adding
+876 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-file-utils@17.4.51
+877 silly cache afterAdd @syncfusion/ej2-file-utils@17.4.51
+878 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-file-utils/17.4.51/package/package.json not in flight; writing
+879 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-file-utils/17.4.51/package/package.json written
+880 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-popups/-/ej2-popups-17.4.51.tgz
+881 silly fetchAndShaCheck shasum d4405446c0b61eaad6a5d4644e6f1474f18bb623
+882 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-splitbuttons/-/ej2-splitbuttons-17.4.55.tgz not in flight; adding
+883 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-splitbuttons@17.4.55
+884 silly cache afterAdd @syncfusion/ej2-splitbuttons@17.4.55
+885 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-splitbuttons/17.4.55/package/package.json not in flight; writing
+886 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-splitbuttons/17.4.55/package/package.json written
+887 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-lists/-/ej2-lists-17.4.51.tgz
+888 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-inputs/-/ej2-inputs-17.4.55.tgz
+889 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-excel-export/-/ej2-excel-export-17.4.51.tgz
+890 silly fetchAndShaCheck shasum b726d9a79a859e50345a92a16f63a4300dd1418a
+891 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-buttons/-/ej2-buttons-17.4.51.tgz not in flight; adding
+892 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-buttons@17.4.51
+893 silly cache afterAdd @syncfusion/ej2-buttons@17.4.51
+894 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-buttons/17.4.51/package/package.json not in flight; writing
+895 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-buttons/17.4.51/package/package.json written
+896 silly fetchAndShaCheck shasum b07885a5b9862f5af978a311c9c22fee656e55b2
+897 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-compression/-/ej2-compression-17.4.51.tgz not in flight; adding
+898 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-compression@17.4.51
+899 silly cache afterAdd @syncfusion/ej2-compression@17.4.51
+900 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-compression/17.4.51/package/package.json not in flight; writing
+901 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-compression/17.4.51/package/package.json written
+902 silly fetchAndShaCheck shasum f6c9ae1d92dc13126f28ba61126d819dd8591faf
+903 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-excel-export/-/ej2-excel-export-17.4.51.tgz not in flight; adding
+904 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-excel-export@17.4.51
+905 silly cache afterAdd @syncfusion/ej2-excel-export@17.4.51
+906 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-excel-export/17.4.51/package/package.json not in flight; writing
+907 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-excel-export/17.4.51/package/package.json written
+908 silly fetchAndShaCheck shasum 9f03cdce581ddf1d1d40ac42c8b08055be142051
+909 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-data/-/ej2-data-17.4.51.tgz not in flight; adding
+910 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-data@17.4.51
+911 silly cache afterAdd @syncfusion/ej2-data@17.4.51
+912 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-data/17.4.51/package/package.json not in flight; writing
+913 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-data/17.4.51/package/package.json written
+914 silly fetchAndShaCheck shasum 5e8548d9b6b5d0c1446b40ad59ce76b19ab7e76c
+915 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-popups/-/ej2-popups-17.4.51.tgz not in flight; adding
+916 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-popups@17.4.51
+917 silly cache afterAdd @syncfusion/ej2-popups@17.4.51
+918 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-popups/17.4.51/package/package.json not in flight; writing
+919 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-popups/17.4.51/package/package.json written
+920 silly fetchAndShaCheck shasum 7b6d9be845352754206cae052db5300e99a33850
+921 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-lists/-/ej2-lists-17.4.51.tgz not in flight; adding
+922 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-lists@17.4.51
+923 silly cache afterAdd @syncfusion/ej2-lists@17.4.51
+924 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-lists/17.4.51/package/package.json not in flight; writing
+925 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-lists/17.4.51/package/package.json written
+926 http fetch 200 https://registry.npmjs.org/@syncfusion/ej2-dropdowns/-/ej2-dropdowns-17.4.51.tgz
+927 silly fetchAndShaCheck shasum ae8c7a66a010fe7c7c18bcf16e09201ee31774d4
+928 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-navigations/-/ej2-navigations-17.4.55.tgz not in flight; adding
+929 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-navigations@17.4.55
+930 silly cache afterAdd @syncfusion/ej2-navigations@17.4.55
+931 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-navigations/17.4.55/package/package.json not in flight; writing
+932 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-navigations/17.4.55/package/package.json written
+933 silly fetchAndShaCheck shasum 75eb7e71376963ff5a889aaa121ebe88b8b978e3
+934 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-inputs/-/ej2-inputs-17.4.55.tgz not in flight; adding
+935 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-inputs@17.4.55
+936 silly cache afterAdd @syncfusion/ej2-inputs@17.4.55
+937 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-inputs/17.4.55/package/package.json not in flight; writing
+938 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-inputs/17.4.55/package/package.json written
+939 silly fetchAndShaCheck shasum 902ca815b845501a1ace1048fe7746c390ee8a47
+940 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-dropdowns/-/ej2-dropdowns-17.4.51.tgz not in flight; adding
+941 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-dropdowns@17.4.51
+942 silly cache afterAdd @syncfusion/ej2-dropdowns@17.4.51
+943 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-dropdowns/17.4.51/package/package.json not in flight; writing
+944 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-dropdowns/17.4.51/package/package.json written
+945 silly fetchAndShaCheck shasum 0cc7accb9f3c01fcf31e813f178c0a3ffe91256e
+946 verbose addTmpTarball /tmp/npm-18088-fa09a2dd/registry.npmjs.org/_40syncfusion/ej2-pdf-export/-/ej2-pdf-export-17.4.51.tgz not in flight; adding
+947 verbose addTmpTarball already have metadata; skipping unpack for @syncfusion/ej2-pdf-export@17.4.51
+948 silly cache afterAdd @syncfusion/ej2-pdf-export@17.4.51
+949 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-pdf-export/17.4.51/package/package.json not in flight; writing
+950 verbose afterAdd /home/ashu/.npm/@syncfusion/ej2-pdf-export/17.4.51/package/package.json written
+951 silly loadAllDepsIntoIdealTree Finishing
+952 silly idealTree:prePrune projects
+952 silly idealTree:prePrune +-- @babel/runtime@7.8.3
+952 silly idealTree:prePrune +-- @syncfusion/ej2-base@17.4.51
+952 silly idealTree:prePrune +-- @syncfusion/ej2-buttons@17.4.51
+952 silly idealTree:prePrune +-- @syncfusion/ej2-calendars@17.4.51
+952 silly idealTree:prePrune +-- @syncfusion/ej2-compression@17.4.51
+952 silly idealTree:prePrune +-- @syncfusion/ej2-data@17.4.51
+952 silly idealTree:prePrune +-- @syncfusion/ej2-dropdowns@17.4.51
+952 silly idealTree:prePrune +-- @syncfusion/ej2-excel-export@17.4.51
+952 silly idealTree:prePrune +-- @syncfusion/ej2-file-utils@17.4.51
+952 silly idealTree:prePrune +-- @syncfusion/ej2-grids@17.4.55
+952 silly idealTree:prePrune +-- @syncfusion/ej2-icons@17.4.51
+952 silly idealTree:prePrune +-- @syncfusion/ej2-inputs@17.4.55
+952 silly idealTree:prePrune +-- @syncfusion/ej2-lists@17.4.51
+952 silly idealTree:prePrune +-- @syncfusion/ej2-navigations@17.4.55
+952 silly idealTree:prePrune +-- @syncfusion/ej2-pdf-export@17.4.51
+952 silly idealTree:prePrune +-- @syncfusion/ej2-popups@17.4.51
+952 silly idealTree:prePrune +-- @syncfusion/ej2-react-base@17.4.51
+952 silly idealTree:prePrune +-- @syncfusion/ej2-react-grids@17.4.55
+952 silly idealTree:prePrune +-- @syncfusion/ej2-splitbuttons@17.4.55
+952 silly idealTree:prePrune +-- hoist-non-react-statics@3.3.1
+952 silly idealTree:prePrune +-- invariant@2.2.4
+952 silly idealTree:prePrune +-- js-tokens@4.0.0
+952 silly idealTree:prePrune +-- loose-envify@1.4.0
+952 silly idealTree:prePrune +-- object-assign@4.1.1
+952 silly idealTree:prePrune +-- prop-types@15.7.2
+952 silly idealTree:prePrune +-- react-is@16.12.0
+952 silly idealTree:prePrune +-- react-redux@7.1.3
+952 silly idealTree:prePrune +-- react@16.12.0
+952 silly idealTree:prePrune `-- regenerator-runtime@0.13.3
+953 silly loadIdealTree Finishing
+954 silly currentTree projects
+954 silly currentTree +-- @babel/runtime@7.8.3
+954 silly currentTree +-- hoist-non-react-statics@3.3.1
+954 silly currentTree +-- invariant@2.2.4
+954 silly currentTree +-- js-tokens@4.0.0
+954 silly currentTree +-- loose-envify@1.4.0
+954 silly currentTree +-- object-assign@4.1.1
+954 silly currentTree +-- prop-types@15.7.2
+954 silly currentTree +-- react-is@16.12.0
+954 silly currentTree +-- react-redux@7.1.3
+954 silly currentTree +-- react@16.12.0
+954 silly currentTree `-- regenerator-runtime@0.13.3
+955 silly idealTree projects
+955 silly idealTree +-- @babel/runtime@7.8.3
+955 silly idealTree +-- @syncfusion/ej2-base@17.4.51
+955 silly idealTree +-- @syncfusion/ej2-buttons@17.4.51
+955 silly idealTree +-- @syncfusion/ej2-calendars@17.4.51
+955 silly idealTree +-- @syncfusion/ej2-compression@17.4.51
+955 silly idealTree +-- @syncfusion/ej2-data@17.4.51
+955 silly idealTree +-- @syncfusion/ej2-dropdowns@17.4.51
+955 silly idealTree +-- @syncfusion/ej2-excel-export@17.4.51
+955 silly idealTree +-- @syncfusion/ej2-file-utils@17.4.51
+955 silly idealTree +-- @syncfusion/ej2-grids@17.4.55
+955 silly idealTree +-- @syncfusion/ej2-icons@17.4.51
+955 silly idealTree +-- @syncfusion/ej2-inputs@17.4.55
+955 silly idealTree +-- @syncfusion/ej2-lists@17.4.51
+955 silly idealTree +-- @syncfusion/ej2-navigations@17.4.55
+955 silly idealTree +-- @syncfusion/ej2-pdf-export@17.4.51
+955 silly idealTree +-- @syncfusion/ej2-popups@17.4.51
+955 silly idealTree +-- @syncfusion/ej2-react-base@17.4.51
+955 silly idealTree +-- @syncfusion/ej2-react-grids@17.4.55
+955 silly idealTree +-- @syncfusion/ej2-splitbuttons@17.4.55
+955 silly idealTree +-- hoist-non-react-statics@3.3.1
+955 silly idealTree +-- invariant@2.2.4
+955 silly idealTree +-- js-tokens@4.0.0
+955 silly idealTree +-- loose-envify@1.4.0
+955 silly idealTree +-- object-assign@4.1.1
+955 silly idealTree +-- prop-types@15.7.2
+955 silly idealTree +-- react-is@16.12.0
+955 silly idealTree +-- react-redux@7.1.3
+955 silly idealTree +-- react@16.12.0
+955 silly idealTree `-- regenerator-runtime@0.13.3
+956 silly generateActionsToTake Starting
+957 silly install generateActionsToTake
+958 warn checkPermissions Missing write access to /home/ashu/projects/node_modules/react
+959 warn checkPermissions Missing write access to /home/ashu/projects/node_modules/react-redux
+960 warn checkPermissions Missing write access to /home/ashu/projects/node_modules
+961 silly rollbackFailedOptional Starting
+962 silly rollbackFailedOptional Finishing
+963 silly runTopLevelLifecycles Starting
+964 silly runTopLevelLifecycles Finishing
+965 silly install printInstalled
+966 warn enoent ENOENT: no such file or directory, open '/home/ashu/projects/package.json'
+967 warn react-redux@7.1.3 requires a peer of redux@^2.0.0 || ^3.0.0 || ^4.0.0-0 but none was installed.
+968 warn @syncfusion/ej2-react-base@17.4.51 requires a peer of react-dom@15.5.4 - 16.12.0 but none was installed.
+969 warn projects No description
+970 warn projects No repository field.
+971 warn projects No README data
+972 warn projects No license field.
+973 verbose stack Error: EACCES: permission denied, access '/home/ashu/projects/node_modules/react'
+973 verbose stack     at Error (native)
+974 verbose cwd /home/ashu/projects/personal/practise
+975 error Linux 4.4.0-174-generic
+976 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "@syncfusion/ej2-react-grids" "--save" "--no-progress"
+977 error node v4.2.6
+978 error npm  v3.5.2
+979 error path /home/ashu/projects/node_modules/react
+980 error code EACCES
+981 error errno -13
+982 error syscall access
+983 error Error: EACCES: permission denied, access '/home/ashu/projects/node_modules/react'
+983 error     at Error (native)
+983 error  { [Error: EACCES: permission denied, access '/home/ashu/projects/node_modules/react']
+983 error   errno: -13,
+983 error   code: 'EACCES',
+983 error   syscall: 'access',
+983 error   path: '/home/ashu/projects/node_modules/react' }
+984 error Please try running this command again as root/Administrator.
+985 verbose exit [ -13, true ]
